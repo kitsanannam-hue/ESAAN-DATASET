@@ -117,6 +117,28 @@ def phin_artists():
     records = df.to_dict('records')
     return jsonify([convert_to_serializable(record) for record in records])
 
+@app.route('/api/phin/techniques')
+def phin_techniques():
+    """Get Phin techniques."""
+    builder = PhinDatasetBuilder()
+    df = builder.build_technique_dataset()
+    records = df.to_dict('records')
+    return jsonify([convert_to_serializable(record) for record in records])
+
+@app.route('/api/phin-dataset')
+def phin_dataset():
+    """Get complete Phin dataset."""
+    try:
+        phin_path = Path('output/phin_dataset/phin_dataset_complete.json')
+        if phin_path.exists():
+            with open(phin_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(convert_to_serializable(data))
+        else:
+            return jsonify({'error': 'Phin dataset not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 @app.route('/api/chapters')
 def get_chapters():
     """Get chapter information."""
@@ -124,6 +146,62 @@ def get_chapters():
     # Ensure chapters are serializable, as they might contain numpy types
     serializable_chapters = convert_to_serializable(chapters)
     return jsonify(serializable_chapters)
+
+@app.route('/api/ml-dataset/features')
+def ml_features():
+    """Get Thai-Jazz ML features."""
+    try:
+        features_path = Path('output/ml_dataset/thai_jazz_features.json')
+        if features_path.exists():
+            with open(features_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'ML features not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ml-dataset/hybridization')
+def ml_hybridization():
+    """Get hybridization techniques."""
+    try:
+        hybrid_path = Path('output/ml_dataset/hybridization_techniques.json')
+        if hybrid_path.exists():
+            with open(hybrid_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'Hybridization data not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ml-dataset/scale-mapping')
+def ml_scale_mapping():
+    """Get Thai-Jazz scale mappings."""
+    try:
+        scale_path = Path('output/ml_dataset/thai_jazz_scale_mapping.json')
+        if scale_path.exists():
+            with open(scale_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'Scale mapping not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/ml-dataset/complete')
+def ml_complete():
+    """Get complete ML dataset."""
+    try:
+        complete_path = Path('output/ml_dataset/complete_ml_dataset.json')
+        if complete_path.exists():
+            with open(complete_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'Complete dataset not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

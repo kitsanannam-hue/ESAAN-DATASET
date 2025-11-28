@@ -50,6 +50,15 @@ mode = "sequential"
 task = "shell.exec"
 args = "python app.py"
 
+[[workflows.workflow]]
+name = "Build ML Dataset"
+author = 50331345
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python -c \"from src.thai_jazz_ml_builder import ThaiJazzMLBuilder; builder = ThaiJazzMLBuilder(); builder.export_all()\""
+
 [[ports]]
 localPort = 5000
 externalPort = 80
