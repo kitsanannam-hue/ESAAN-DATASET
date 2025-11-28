@@ -14,8 +14,25 @@ This will:
 2. Extract all text
 3. Identify chapters
 4. Analyze music features
-5. Generate ML dataset schema
-6. Export results to `output/` directory
+5. Extract musical notation
+6. Generate ML dataset schema
+7. Export results to `output/` directory
+
+## Web Dashboard
+
+Start the interactive web dashboard:
+
+```bash
+python app.py
+# Or click the Run button in Replit
+```
+
+The dashboard provides:
+- Dataset statistics and summaries
+- Thai music content exploration
+- Jazz content exploration
+- Phin dataset visualization
+- Musical notation browser
 
 ## Using Individual Components
 
@@ -93,7 +110,7 @@ explorer.export_subset(pages=[1, 2, 3], output_path="subset.json")
 ### Phin Dataset
 
 ```python
-from src.phin_dataset_builder import PhinDatasetBuilder
+from src.builders.phin_dataset_builder import PhinDatasetBuilder
 
 builder = PhinDatasetBuilder()
 
@@ -105,6 +122,58 @@ technique_df = builder.build_technique_dataset()
 
 # Export all datasets
 builder.export_all()
+```
+
+### Thai-Jazz ML Features
+
+```python
+from src.builders.thai_jazz_ml_builder import ThaiJazzMLBuilder
+
+builder = ThaiJazzMLBuilder()
+
+# Build feature datasets
+features_df = builder.build_thai_jazz_features()
+hybrid_df = builder.build_hybridization_techniques()
+scale_df = builder.build_scale_mapping()
+
+# Export all
+builder.export_all()
+```
+
+### Musical Notation Extraction
+
+```python
+from src.extractors.music_notation_extractor import MusicNotationExtractor
+
+extractor = MusicNotationExtractor()
+
+# Extract from dissertation
+extractor.extract_from_dissertation("path/to/pdf")
+
+# Get specific notation types
+western_notes = extractor.get_western_notation()
+scale_degrees = extractor.get_scale_degrees()
+lai_modes = extractor.get_lai_modes()
+
+# Export dataset
+extractor.export_dataset()
+```
+
+### Data Quality Checking
+
+```python
+from src.analyzers.data_quality_checker import DataQualityChecker
+
+checker = DataQualityChecker()
+
+# Check all datasets
+report = checker.check_all_datasets()
+
+# Clean data
+checker.clean_datasets()
+
+# Validate specific dataset
+is_valid = checker.validate_dataset("phin_tuning")
 ```
 
 ## Output Files
@@ -120,12 +189,21 @@ output/
 │   ├── schema.json             # ML dataset schema
 │   ├── feature_catalog.csv     # Music feature catalog
 │   └── feature_catalog.json    # Feature catalog (JSON)
-└── phin_dataset/
-    ├── phin_tuning.csv/json    # Tuning systems
-    ├── phin_lai_patterns.csv/json  # Melodic patterns
-    ├── phin_artists.csv/json   # Master performers
-    ├── phin_techniques.csv/json    # Playing techniques
-    └── phin_ml_schema.json     # ML feature schema
+├── phin_dataset/
+│   ├── phin_tuning.csv/json    # Tuning systems
+│   ├── phin_lai_patterns.csv/json  # Melodic patterns
+│   ├── phin_artists.csv/json   # Master performers
+│   ├── phin_techniques.csv/json    # Playing techniques
+│   └── phin_ml_schema.json     # ML feature schema
+├── ml_dataset/
+│   ├── thai_jazz_features.csv/json  # Thai-Jazz features
+│   ├── hybridization_techniques.csv/json  # Fusion techniques
+│   ├── thai_jazz_scale_mapping.csv/json  # Scale mappings
+│   └── ml_audio_features_schema.json  # Audio features schema
+└── music_notation_dataset/
+    ├── notations.csv/json       # All musical notations
+    ├── compositions.json        # Compositions found
+    └── notation_summary.json    # Summary statistics
 ```
 
 ## Advanced Usage

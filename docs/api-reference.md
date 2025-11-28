@@ -1,11 +1,15 @@
 
 # API Reference
 
-## DissertationExtractor
+## Extractors
+
+### DissertationExtractor
 
 Main class for extracting text and metadata from PDF dissertations.
 
-### Constructor
+**Module:** `src.extractors.pdf_extractor`
+
+#### Constructor
 
 ```python
 DissertationExtractor(pdf_path: str)
@@ -14,9 +18,9 @@ DissertationExtractor(pdf_path: str)
 **Parameters:**
 - `pdf_path` (str): Path to the PDF file
 
-### Methods
+#### Methods
 
-#### extract_all_text()
+##### extract_all_text()
 
 ```python
 extract_all_text(progress_callback=None) -> Dict[int, str]
@@ -30,7 +34,7 @@ Extract text from all pages.
 **Returns:**
 - Dict mapping page numbers to extracted text
 
-#### extract_page_range()
+##### extract_page_range()
 
 ```python
 extract_page_range(start: int, end: int) -> Dict[int, str]
@@ -38,14 +42,7 @@ extract_page_range(start: int, end: int) -> Dict[int, str]
 
 Extract text from specific page range.
 
-**Parameters:**
-- `start` (int): Starting page number (1-indexed)
-- `end` (int): Ending page number (inclusive)
-
-**Returns:**
-- Dict mapping page numbers to extracted text
-
-#### identify_chapters()
+##### identify_chapters()
 
 ```python
 identify_chapters() -> List[Dict]
@@ -53,10 +50,7 @@ identify_chapters() -> List[Dict]
 
 Identify chapter structure from extracted text.
 
-**Returns:**
-- List of chapter dictionaries with keys: `chapter_number`, `title`, `start_page`, `raw_match`
-
-#### find_music_keywords()
+##### find_music_keywords()
 
 ```python
 find_music_keywords() -> Dict[str, List[Dict]]
@@ -64,43 +58,57 @@ find_music_keywords() -> Dict[str, List[Dict]]
 
 Find pages containing music-related keywords.
 
-**Returns:**
-- Dict mapping categories to lists of matches:
-  - `thai_music`
-  - `jazz`
-  - `cross_cultural`
-  - `ml_dataset`
-  - `music_theory`
+### MusicNotationExtractor
 
-#### export_to_json()
+Extract musical notation from dissertation pages.
 
-```python
-export_to_json(output_path: str)
-```
+**Module:** `src.extractors.music_notation_extractor`
 
-Export all extracted data to JSON.
+#### Methods
 
-#### export_to_dataframe()
+##### extract_from_dissertation()
 
 ```python
-export_to_dataframe() -> pd.DataFrame
+extract_from_dissertation(pdf_path: str) -> pd.DataFrame
 ```
 
-Convert extracted text to pandas DataFrame.
+Extract all musical notation from dissertation.
 
-## ThaiJazzDatasetBuilder
+##### get_western_notation()
+
+```python
+get_western_notation() -> List[Dict]
+```
+
+Get Western musical notation (C, D, E, etc.).
+
+##### get_scale_degrees()
+
+```python
+get_scale_degrees() -> List[Dict]
+```
+
+Get scale degree notation (1, 2, 3, etc.).
+
+##### get_lai_modes()
+
+```python
+get_lai_modes() -> List[Dict]
+```
+
+Get Thai lai mode references.
+
+## Builders
+
+### ThaiJazzDatasetBuilder
 
 Build ML dataset for Thai-Jazz cross-cultural music fusion.
 
-### Constructor
+**Module:** `src.builders.dataset_builder`
 
-```python
-ThaiJazzDatasetBuilder()
-```
+#### Methods
 
-### Methods
-
-#### build_from_extracted_data()
+##### build_from_extracted_data()
 
 ```python
 build_from_extracted_data(extracted_data: Dict) -> pd.DataFrame
@@ -108,13 +116,7 @@ build_from_extracted_data(extracted_data: Dict) -> pd.DataFrame
 
 Build dataset from extracted dissertation data.
 
-**Parameters:**
-- `extracted_data` (dict): Dictionary from DissertationExtractor.export_to_json()
-
-**Returns:**
-- DataFrame with analyzed features
-
-#### generate_feature_catalog()
+##### generate_feature_catalog()
 
 ```python
 generate_feature_catalog() -> pd.DataFrame
@@ -122,122 +124,15 @@ generate_feature_catalog() -> pd.DataFrame
 
 Generate catalog of all music features for ML.
 
-**Returns:**
-- DataFrame with columns: `feature_name`, `category`, `description`, `sub_types`
-
-#### export_dataset()
-
-```python
-export_dataset(output_dir: str) -> Path
-```
-
-Export all dataset components.
-
-**Parameters:**
-- `output_dir` (str): Directory to save dataset files
-
-**Returns:**
-- Path object to output directory
-
-## DatasetExplorer
-
-Interactive explorer for the Thai-Jazz music dataset.
-
-### Constructor
-
-```python
-DatasetExplorer(output_dir: str = "output")
-```
-
-**Parameters:**
-- `output_dir` (str): Directory containing extracted data
-
-### Methods
-
-#### get_page_content()
-
-```python
-get_page_content(page_num: int) -> str
-```
-
-Get text content of a specific page.
-
-#### search_content()
-
-```python
-search_content(query: str, case_sensitive: bool = False) -> List[Dict]
-```
-
-Search for text across all pages.
-
-**Parameters:**
-- `query` (str): Search term
-- `case_sensitive` (bool): Whether search is case-sensitive
-
-**Returns:**
-- List of dicts with keys: `page`, `context`
-
-#### get_thai_music_pages()
-
-```python
-get_thai_music_pages() -> pd.DataFrame
-```
-
-Get all pages containing Thai music content.
-
-#### get_jazz_pages()
-
-```python
-get_jazz_pages() -> pd.DataFrame
-```
-
-Get all pages containing Jazz content.
-
-#### get_fusion_pages()
-
-```python
-get_fusion_pages() -> pd.DataFrame
-```
-
-Get all pages containing cross-cultural fusion content.
-
-#### get_ml_pages()
-
-```python
-get_ml_pages() -> pd.DataFrame
-```
-
-Get all pages containing ML-related content.
-
-#### get_feature_statistics()
-
-```python
-get_feature_statistics() -> Dict[str, Any]
-```
-
-Get statistics about features in the dataset.
-
-#### summary()
-
-```python
-summary() -> str
-```
-
-Generate text summary of the dataset.
-
-## PhinDatasetBuilder
+### PhinDatasetBuilder
 
 Build specialized dataset for Thai Phin instrument.
 
-### Constructor
+**Module:** `src.builders.phin_dataset_builder`
 
-```python
-PhinDatasetBuilder(output_dir: str = "output/phin_dataset")
-```
+#### Methods
 
-### Methods
-
-#### build_tuning_dataset()
+##### build_tuning_dataset()
 
 ```python
 build_tuning_dataset() -> pd.DataFrame
@@ -245,7 +140,7 @@ build_tuning_dataset() -> pd.DataFrame
 
 Build dataset of phin tuning systems.
 
-#### build_lai_dataset()
+##### build_lai_dataset()
 
 ```python
 build_lai_dataset() -> pd.DataFrame
@@ -253,7 +148,7 @@ build_lai_dataset() -> pd.DataFrame
 
 Build dataset of lai melodic patterns.
 
-#### build_artist_dataset()
+##### build_artist_dataset()
 
 ```python
 build_artist_dataset() -> pd.DataFrame
@@ -261,18 +156,174 @@ build_artist_dataset() -> pd.DataFrame
 
 Build dataset of phin master artists.
 
-#### build_technique_dataset()
+### ThaiJazzMLBuilder
+
+Build Thai-Jazz ML features dataset.
+
+**Module:** `src.builders.thai_jazz_ml_builder`
+
+#### Methods
+
+##### build_thai_jazz_features()
 
 ```python
-build_technique_dataset() -> pd.DataFrame
+build_thai_jazz_features() -> pd.DataFrame
 ```
 
-Build dataset of phin playing techniques.
+Build Thai-Jazz feature dataset.
 
-#### export_all()
+##### build_hybridization_techniques()
 
 ```python
-export_all() -> Dict
+build_hybridization_techniques() -> pd.DataFrame
 ```
 
-Export all phin datasets and return combined dataset dictionary.
+Build hybridization techniques dataset.
+
+##### build_scale_mapping()
+
+```python
+build_scale_mapping() -> pd.DataFrame
+```
+
+Build Thai-Jazz scale mapping dataset.
+
+## Analyzers
+
+### MusicTheoryAnalyzer
+
+Analyze music theory concepts in the dissertation.
+
+**Module:** `src.analyzers.music_theory_analyzer`
+
+#### Methods
+
+##### analyze_scales()
+
+```python
+analyze_scales(text: str) -> List[Dict]
+```
+
+Analyze scale references in text.
+
+##### analyze_modes()
+
+```python
+analyze_modes(text: str) -> List[Dict]
+```
+
+Analyze mode references (Thai thang, Jazz modes).
+
+### DataQualityChecker
+
+Validate and clean dataset quality.
+
+**Module:** `src.analyzers.data_quality_checker`
+
+#### Methods
+
+##### check_all_datasets()
+
+```python
+check_all_datasets() -> Dict
+```
+
+Check quality of all datasets.
+
+##### clean_datasets()
+
+```python
+clean_datasets()
+```
+
+Clean all datasets.
+
+##### validate_dataset()
+
+```python
+validate_dataset(dataset_name: str) -> bool
+```
+
+Validate a specific dataset.
+
+## Explorers
+
+### DatasetExplorer
+
+Interactive explorer for the Thai-Jazz music dataset.
+
+**Module:** `src.explorers.dataset_explorer`
+
+#### Methods
+
+##### get_page_content()
+
+```python
+get_page_content(page_num: int) -> str
+```
+
+Get text content of a specific page.
+
+##### search_content()
+
+```python
+search_content(query: str, case_sensitive: bool = False) -> List[Dict]
+```
+
+Search for text across all pages.
+
+##### get_thai_music_pages()
+
+```python
+get_thai_music_pages() -> pd.DataFrame
+```
+
+Get all pages containing Thai music content.
+
+##### get_jazz_pages()
+
+```python
+get_jazz_pages() -> pd.DataFrame
+```
+
+Get all pages containing Jazz content.
+
+##### get_feature_statistics()
+
+```python
+get_feature_statistics() -> Dict[str, Any]
+```
+
+Get statistics about features in the dataset.
+
+## Web API Endpoints
+
+The Flask application (`app.py`) provides these REST API endpoints:
+
+### GET /api/summary
+
+Get dataset summary statistics.
+
+### GET /api/thai-music-pages
+
+Get pages containing Thai music content.
+
+### GET /api/jazz-pages
+
+Get pages containing Jazz content.
+
+### GET /api/phin-lai-patterns
+
+Get Phin lai patterns dataset.
+
+### GET /api/notations
+
+Get musical notation dataset.
+
+### GET /api/compositions
+
+Get musical compositions found.
+
+### GET /api/notation-summary
+
+Get notation dataset summary.
