@@ -11,9 +11,9 @@ explorer = DatasetExplorer()
 
 def convert_to_serializable(obj):
     """Convert numpy/pandas types to Python native types for JSON serialization."""
-    if isinstance(obj, (np.integer, np.int64)):
+    if isinstance(obj, np.integer):
         return int(obj)
-    elif isinstance(obj, (np.floating, np.float64)):
+    elif isinstance(obj, np.floating):
         return float(obj)
     elif isinstance(obj, np.ndarray):
         return obj.tolist()
