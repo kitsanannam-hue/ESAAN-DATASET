@@ -1,0 +1,68 @@
+[
+  {
+    "feature_name":"thang",
+    "category":"thai_traditional",
+    "description":"Thai melodic mode system (7 modes)",
+    "sub_types":"[\"nai\", \"klang\", \"phiang-o-lang\", \"phiang-o-bon\", \"kruad\", \"chawa\", \"samniang\"]"
+  },
+  {
+    "feature_name":"luk_tok",
+    "category":"thai_traditional",
+    "description":"Thai rhythmic patterns and accents",
+    "sub_types":"[\"sam_chan\", \"song_chan\", \"chan_dio\"]"
+  },
+  {
+    "feature_name":"ornaments",
+    "category":"thai_traditional",
+    "description":"Thai melodic ornamentations",
+    "sub_types":"[\"kro\", \"won\", \"soi\"]"
+  },
+  {
+    "feature_name":"scale_structure",
+    "category":"thai_traditional",
+    "description":"Thai pentatonic\/heptatonic scale systems",
+    "sub_types":"[\"pentatonic_anhemitonic\", \"heptatonic_equidistant\"]"
+  },
+  {
+    "feature_name":"chord_types",
+    "category":"jazz_modern",
+    "description":"Jazz chord vocabulary",
+    "sub_types":"[\"major7\", \"minor7\", \"dominant7\", \"half_diminished\", \"diminished\", \"augmented\", \"altered\", \"suspended\"]"
+  },
+  {
+    "feature_name":"scales_modes",
+    "category":"jazz_modern",
+    "description":"Jazz scales and modes",
+    "sub_types":"[\"major\", \"dorian\", \"phrygian\", \"lydian\", \"mixolydian\", \"aeolian\", \"locrian\", \"melodic_minor\", \"harmonic_minor\", \"whole_tone\", \"diminished\", \"altered\", \"bebop\"]"
+  },
+  {
+    "feature_name":"rhythm_patterns",
+    "category":"jazz_modern",
+    "description":"Jazz rhythmic characteristics",
+    "sub_types":"[\"swing\", \"straight\", \"shuffle\", \"latin\", \"funk\"]"
+  },
+  {
+    "feature_name":"improvisation",
+    "category":"jazz_modern",
+    "description":"Jazz improvisation techniques",
+    "sub_types":"[\"chord_tones\", \"approach_notes\", \"enclosures\", \"sequences\", \"motivic_development\"]"
+  },
+  {
+    "feature_name":"melody_integration",
+    "category":"cross_cultural_fusion",
+    "description":"Techniques for blending Thai and Jazz melodies",
+    "sub_types":"[\"mode_mapping\", \"ornament_adaptation\", \"phrase_exchange\"]"
+  },
+  {
+    "feature_name":"harmony_adaptation",
+    "category":"cross_cultural_fusion",
+    "description":"Adapting Thai melodies to Jazz harmony",
+    "sub_types":"[\"reharmonization\", \"modal_interchange\", \"pedal_points\"]"
+  },
+  {
+    "feature_name":"rhythm_fusion",
+    "category":"cross_cultural_fusion",
+    "description":"Combining Thai and Jazz rhythmic elements",
+    "sub_types":"[\"polyrhythm\", \"metric_modulation\", \"accent_blending\"]"
+  }
+]

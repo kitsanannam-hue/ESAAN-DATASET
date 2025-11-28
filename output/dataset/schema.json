@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "name": "Thai-Jazz Cross-Cultural Music Dataset",
+  "description": "Dataset for machine learning on Thai-Jazz music fusion",
+  "categories": {
+    "thai_traditional": {
+      "description": "Traditional Thai music elements",
+      "features": [
+        "thang",
+        "luk_tok",
+        "ornaments",
+        "scale_structure"
+      ]
+    },
+    "jazz_modern": {
+      "description": "Modern Jazz music elements",
+      "features": [
+        "chord_types",
+        "scales_modes",
+        "rhythm_patterns",
+        "improvisation"
+      ]
+    },
+    "cross_cultural_fusion": {
+      "description": "Cross-cultural fusion techniques",
+      "features": [
+        "melody_integration",
+        "harmony_adaptation",
+        "rhythm_fusion"
+      ]
+    }
+  },
+  "audio_features": {
+    "spectral": [
+      "mfcc",
+      "spectral_centroid",
+      "spectral_bandwidth",
+      "spectral_rolloff",
+      "chroma"
+    ],
+    "temporal": [
+      "tempo",
+      "beat_frames",
+      "onset_strength"
+    ],
+    "harmonic": [
+      "tonnetz",
+      "harmonic_percussive_ratio"
+    ],
+    "rhythm": [
+      "tempo",
+      "beat_histogram",
+      "rhythm_pattern"
+    ]
+  },
+  "annotation_types": {
+    "melodic": [
+      "pitch_contour",
+      "ornament_type",
+      "phrase_boundary"
+    ],
+    "harmonic": [
+      "chord_label",
+      "key",
+      "mode"
+    ],
+    "rhythmic": [
+      "beat_position",
+      "accent_pattern",
+      "tempo_variation"
+    ],
+    "structural": [
+      "section_label",
+      "form",
+      "transition_type"
+    ]
+  }
+}

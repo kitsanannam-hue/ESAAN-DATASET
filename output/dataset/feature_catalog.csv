@@ -1,0 +1,12 @@
+feature_name,category,description,sub_types
+thang,thai_traditional,Thai melodic mode system (7 modes),"[""nai"", ""klang"", ""phiang-o-lang"", ""phiang-o-bon"", ""kruad"", ""chawa"", ""samniang""]"
+luk_tok,thai_traditional,Thai rhythmic patterns and accents,"[""sam_chan"", ""song_chan"", ""chan_dio""]"
+ornaments,thai_traditional,Thai melodic ornamentations,"[""kro"", ""won"", ""soi""]"
+scale_structure,thai_traditional,Thai pentatonic/heptatonic scale systems,"[""pentatonic_anhemitonic"", ""heptatonic_equidistant""]"
+chord_types,jazz_modern,Jazz chord vocabulary,"[""major7"", ""minor7"", ""dominant7"", ""half_diminished"", ""diminished"", ""augmented"", ""altered"", ""suspended""]"
+scales_modes,jazz_modern,Jazz scales and modes,"[""major"", ""dorian"", ""phrygian"", ""lydian"", ""mixolydian"", ""aeolian"", ""locrian"", ""melodic_minor"", ""harmonic_minor"", ""whole_tone"", ""diminished"", ""altered"", ""bebop""]"
+rhythm_patterns,jazz_modern,Jazz rhythmic characteristics,"[""swing"", ""straight"", ""shuffle"", ""latin"", ""funk""]"
+improvisation,jazz_modern,Jazz improvisation techniques,"[""chord_tones"", ""approach_notes"", ""enclosures"", ""sequences"", ""motivic_development""]"
+melody_integration,cross_cultural_fusion,Techniques for blending Thai and Jazz melodies,"[""mode_mapping"", ""ornament_adaptation"", ""phrase_exchange""]"
+harmony_adaptation,cross_cultural_fusion,Adapting Thai melodies to Jazz harmony,"[""reharmonization"", ""modal_interchange"", ""pedal_points""]"
+rhythm_fusion,cross_cultural_fusion,Combining Thai and Jazz rhythmic elements,"[""polyrhythm"", ""metric_modulation"", ""accent_blending""]"
