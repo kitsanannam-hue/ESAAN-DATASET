@@ -1,0 +1,459 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai-Jazz Cross-Cultural Music Dataset Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle { color: #666; font-size: 1.1em; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .stat-card:hover { transform: translateY(-5px); }
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .search-section {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        button:hover { opacity: 0.9; }
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .tab {
+            padding: 12px 24px;
+            background: #f5f5f5;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .tab.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .content-area {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            min-height: 400px;
+        }
+        .result-item {
+            padding: 15px;
+            border-left: 4px solid #667eea;
+            background: #f9f9f9;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        .page-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-bottom: 8px;
+        }
+        .context { color: #555; line-height: 1.6; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background: #f5f5f5;
+            font-weight: 600;
+            color: #667eea;
+        }
+        tr:hover { background: #f9f9f9; }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .feature-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+        .feature-name {
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+        .feature-category {
+            display: inline-block;
+            background: #e0e7ff;
+            color: #667eea;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 Thai-Jazz Cross-Cultural Music Dataset</h1>
+            <p class="subtitle">Interactive exploration of 680-page PhD dissertation analysis</p>
+        </header>
+
+        <div class="stats-grid" id="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value" id="total-entries">-</div>
+                <div class="stat-label">Total Features</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="unique-pages">-</div>
+                <div class="stat-label">Pages Analyzed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="thai-music">-</div>
+                <div class="stat-label">Thai Music Pages</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="jazz-count">-</div>
+                <div class="stat-label">Jazz Pages</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="fusion-count">-</div>
+                <div class="stat-label">Fusion Pages</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="ml-count">-</div>
+                <div class="stat-label">ML Pages</div>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <h2 style="margin-bottom: 20px;">🔍 Search Dataset</h2>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search across all 680 pages...">
+                <button onclick="performSearch()">Search</button>
+            </div>
+            <div id="search-results"></div>
+        </div>
+
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('overview')">Overview</button>
+            <button class="tab" onclick="switchTab('thai-music')">Thai Music</button>
+            <button class="tab" onclick="switchTab('jazz')">Jazz</button>
+            <button class="tab" onclick="switchTab('fusion')">Fusion</button>
+            <button class="tab" onclick="switchTab('features')">Feature Catalog</button>
+            <button class="tab" onclick="switchTab('phin')">Phin Dataset</button>
+            <button class="tab" onclick="switchTab('chapters')">Chapters</button>
+        </div>
+
+        <div class="content-area" id="content-area">
+            <div class="loading">Loading data...</div>
+        </div>
+    </div>
+
+    <script>
+        let currentTab = 'overview';
+        let stats = {};
+
+        async function loadStats() {
+            const response = await fetch('/api/summary');
+            stats = await response.json();
+            
+            document.getElementById('total-entries').textContent = stats.total_entries || 0;
+            document.getElementById('unique-pages').textContent = stats.unique_pages || 0;
+            document.getElementById('thai-music').textContent = stats.thai_music_count || 0;
+            document.getElementById('jazz-count').textContent = stats.jazz_count || 0;
+            document.getElementById('fusion-count').textContent = stats.fusion_count || 0;
+            document.getElementById('ml-count').textContent = stats.ml_count || 0;
+        }
+
+        async function performSearch() {
+            const query = document.getElementById('search-input').value;
+            if (!query) return;
+
+            const resultsDiv = document.getElementById('search-results');
+            resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
+
+            const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+            const results = await response.json();
+
+            if (results.length === 0) {
+                resultsDiv.innerHTML = '<p>No results found.</p>';
+                return;
+            }
+
+            resultsDiv.innerHTML = `<h3 style="margin-bottom: 15px;">Found ${results.length} results:</h3>` +
+                results.map(r => `
+                    <div class="result-item">
+                        <span class="page-number">Page ${r.page}</span>
+                        <div class="context">${r.context}</div>
+                    </div>
+                `).join('');
+        }
+
+        async function switchTab(tab) {
+            currentTab = tab;
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const contentArea = document.getElementById('content-area');
+            contentArea.innerHTML = '<div class="loading">Loading...</div>';
+
+            if (tab === 'overview') {
+                showOverview();
+            } else if (tab === 'thai-music') {
+                showPages('/api/thai-music-pages', 'Thai Music Pages');
+            } else if (tab === 'jazz') {
+                showPages('/api/jazz-pages', 'Jazz Pages');
+            } else if (tab === 'fusion') {
+                showPages('/api/fusion-pages', 'Fusion Pages');
+            } else if (tab === 'features') {
+                showFeatureCatalog();
+            } else if (tab === 'phin') {
+                showPhinDataset();
+            } else if (tab === 'chapters') {
+                showChapters();
+            }
+        }
+
+        function showOverview() {
+            const html = `
+                <h2>Dataset Overview</h2>
+                <div class="feature-grid">
+                    ${Object.entries(stats.feature_counts || {}).slice(0, 12).map(([feature, count]) => `
+                        <div class="feature-card">
+                            <div class="feature-name">${feature}</div>
+                            <div style="color: #666;">${count} instances</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        async function showPages(endpoint, title) {
+            const response = await fetch(endpoint);
+            const data = await response.json();
+
+            const html = `
+                <h2>${title}</h2>
+                <p style="margin-bottom: 20px; color: #666;">Showing ${data.length} entries</p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Page</th>
+                            <th>Feature</th>
+                            <th>Context</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${data.slice(0, 50).map(item => `
+                            <tr>
+                                <td>${item.page}</td>
+                                <td><strong>${item.feature_name}</strong></td>
+                                <td>${(item.context || '').substring(0, 150)}...</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        async function showFeatureCatalog() {
+            const response = await fetch('/api/feature-catalog');
+            const catalog = await response.json();
+
+            const html = `
+                <h2>Feature Catalog</h2>
+                <div class="feature-grid">
+                    ${catalog.map(feature => `
+                        <div class="feature-card">
+                            <div class="feature-category">${feature.category.replace('_', ' ')}</div>
+                            <div class="feature-name">${feature.feature_name}</div>
+                            <div style="color: #666; font-size: 0.9em;">${feature.description}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        async function showPhinDataset() {
+            const [tuning, lai, artists] = await Promise.all([
+                fetch('/api/phin/tuning').then(r => r.json()),
+                fetch('/api/phin/lai-patterns').then(r => r.json()),
+                fetch('/api/phin/artists').then(r => r.json())
+            ]);
+
+            const html = `
+                <h2>Thai Phin (พิณ) Dataset</h2>
+                
+                <h3 style="margin-top: 30px;">Tuning Systems</h3>
+                <table>
+                    <thead><tr><th>Strings</th><th>Tuning</th><th>Notes</th><th>Description</th></tr></thead>
+                    <tbody>
+                        ${tuning.map(t => `
+                            <tr>
+                                <td>${t.string_count}</td>
+                                <td><strong>${t.tuning}</strong></td>
+                                <td>${t.notes}</td>
+                                <td>${t.description}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+
+                <h3 style="margin-top: 30px;">Lai Patterns (ลาย)</h3>
+                <div class="feature-grid">
+                    ${lai.map(l => `
+                        <div class="feature-card">
+                            <div class="feature-name">${l.name_thai}</div>
+                            <div style="color: #667eea; margin: 5px 0;">${l.name_english}</div>
+                            <div style="color: #666; font-size: 0.9em; margin: 10px 0;">${l.meaning}</div>
+                            <div style="font-size: 0.85em;">
+                                <strong>Scale:</strong> ${l.scale_type}<br>
+                                <strong>Performer:</strong> ${l.performer || 'N/A'}<br>
+                                <strong>Province:</strong> ${l.province || 'N/A'}
+                            </div>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h3 style="margin-top: 30px;">Master Artists</h3>
+                ${artists.map(a => `
+                    <div class="result-item" style="margin-bottom: 20px;">
+                        <div style="font-size: 1.2em; font-weight: bold; color: #667eea; margin-bottom: 5px;">${a.name}</div>
+                        <div style="color: #999; font-size: 0.9em; margin-bottom: 10px;">${a.province} • ${a.specialty}</div>
+                        <div style="color: #555;">${a.description}</div>
+                    </div>
+                `).join('')}
+            `;
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        async function showChapters() {
+            const response = await fetch('/api/chapters');
+            const chapters = await response.json();
+
+            const html = `
+                <h2>Dissertation Chapters</h2>
+                <table>
+                    <thead>
+                        <tr><th>Chapter</th><th>Title</th><th>Start Page</th></tr>
+                    </thead>
+                    <tbody>
+                        ${chapters.map(ch => `
+                            <tr>
+                                <td>${ch.chapter_number}</td>
+                                <td>${ch.title}</td>
+                                <td>${ch.start_page}</td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            `;
+            document.getElementById('content-area').innerHTML = html;
+        }
+
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') performSearch();
+        });
+
+        loadStats();
+        showOverview();
+    </script>
+</body>
+</html>
