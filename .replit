@@ -17,6 +17,7 @@ deploymentTarget = "autoscale"
 
 [agent]
 expertMode = true
+integrations = ["python_openai:1.0.0"]
 
 [workflows]
 runButton = "Project"
@@ -80,5 +81,5 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
-localPort = 44953
+localPort = 35523
 externalPort = 3000

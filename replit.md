@@ -153,7 +153,63 @@ lai_df = builder.build_lai_dataset()
 - PyMuPDF (fitz) - PDF text extraction
 - pandas - Data manipulation and export
 
+## Web Dashboard
+
+The project includes an interactive web dashboard for exploring the dataset:
+
+### Features
+- **Statistics Overview**: View total features, pages analyzed, and content distribution
+- **Interactive Search**: Search across all 680 dissertation pages
+- **Data Visualizations**: Charts showing feature categories, page distribution, notation types, and regional coverage
+- **Feature Catalog**: Browse and filter all extracted musical features by category
+- **Thai-Jazz Connections**: View relationships between Thai musical techniques and Jazz equivalents
+- **Phin Dataset**: Explore tuning systems, Lai patterns, and master artists
+- **AI Analysis** (requires OpenAI API key): Get AI-powered insights about musical concepts and fusion suggestions
+- **Export Data**: Download datasets in JSON or CSV format
+
+### Running the Dashboard
+```bash
+gunicorn --bind 0.0.0.0:5000 --reload app:app
+```
+
+## API Endpoints
+
+### Dataset Endpoints
+- `GET /api/summary` - Dataset statistics
+- `GET /api/search?q=<query>` - Search content
+- `GET /api/feature-catalog` - All features
+- `GET /api/features/filter?category=<cat>&search=<term>` - Filter features
+- `GET /api/features/categories` - All categories
+- `GET /api/relationships` - Thai-Jazz technique connections
+
+### Visualization Endpoints
+- `GET /api/visualization/category-distribution` - Feature category chart data
+- `GET /api/visualization/page-analysis` - Page content distribution
+- `GET /api/visualization/notation-types` - Notation type distribution
+- `GET /api/visualization/regional-coverage` - Regional coverage data
+
+### Export Endpoints
+- `GET /api/export/features/json` - Download features as JSON
+- `GET /api/export/features/csv` - Download features as CSV
+- `GET /api/export/phin/json` - Download Phin dataset as JSON
+- `GET /api/export/complete/json` - Download complete ML dataset
+
+### AI Endpoints (requires OPENAI_API_KEY)
+- `GET /api/ai/status` - Check AI availability
+- `POST /api/ai/analyze-feature` - Analyze a musical feature
+- `POST /api/ai/explain` - Explain a musical concept
+- `POST /api/ai/compare-scales` - Compare Thai and Jazz scales
+- `POST /api/ai/fusion-suggestion` - Generate fusion composition ideas
+
 ## Recent Changes
+- **2025-11-28**: Enhanced web dashboard with AI analysis and visualizations
+  - Added AI-powered analysis using OpenAI GPT-5 for musical insights
+  - Integrated Chart.js for interactive data visualizations
+  - Added advanced filtering by category and search terms
+  - Built Thai-Jazz technique relationship mapping
+  - Added JSON/CSV export functionality for researchers
+  - Implemented dynamic AI availability checking
+
 - **2025-11-28**: Initial extraction and dataset creation
   - Implemented PDF extraction with PyMuPDF
   - Created ML dataset schema for Thai-Jazz fusion
