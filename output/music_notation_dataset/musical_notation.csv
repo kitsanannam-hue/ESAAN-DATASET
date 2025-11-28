@@ -1,0 +1,596 @@
+page,type,notation,context
+10,western_notes,"E, F, G","C and D sections of “Lai Teay Khong.”                                         98   Figure 4.12: The E, F, G and H sections of “Lai Teay Khong.”                               99  Figure 4.13: Arrangeme"
+57,interval,A4,"iam by Monsieur De La Loubere.  <http://name.umdl.umich.edu/A48403.0001.001.>  107 Ibid., 42.  108 Sujit Wongthes, “Thai"
+63,scale_degrees,"1, 2, 3, 5","in typical Thai tunings. The other scale degrees produced  by Thai instruments, however, including 1, 2, 3, 5, and 6, can produce a sound relatively similar  to the structure of major (or minor) pent"
+63,scale_degrees,"2, 3, 4","rs to the fingering used for an instrument—for example, 1 refers to a lower- pitched fingering, and 2, 3, 4 can direct the other successive fingers on that string129, as well as  the Thai alphabetical"
+68,scale_degrees,1 2 3 5 2,"de (in  scale degrees, with arrows adding clarity of melodic contour, see also Figure 3.5):     1.  1 2 3 5 2 (twice),   2.  5 3 2 1 2 3 (three times),   3.  2 3 2 1 6¯ 5¯ (three times),   4.  5 6 1­"
+68,scale_degrees,5 3 2 1 2 3,"th arrows adding clarity of melodic contour, see also Figure 3.5):     1.  1 2 3 5 2 (twice),   2.  5 3 2 1 2 3 (three times),   3.  2 3 2 1 6¯ 5¯ (three times),   4.  5 6 1­ 2 ­ 1­ 6¯ (twice),   5."
+68,scale_degrees,2 3 2 1 6,"ic contour, see also Figure 3.5):     1.  1 2 3 5 2 (twice),   2.  5 3 2 1 2 3 (three times),   3.  2 3 2 1 6¯ 5¯ (three times),   4.  5 6 1­ 2 ­ 1­ 6¯ (twice),   5.  2 3 2 3 5 1 2 (twice),   6.  1 6"
+68,scale_degrees,5 6 1,"1.  1 2 3 5 2 (twice),   2.  5 3 2 1 2 3 (three times),   3.  2 3 2 1 6¯ 5¯ (three times),   4.  5 6 1­ 2 ­ 1­ 6¯ (twice),   5.  2 3 2 3 5 1 2 (twice),   6.  1 6 5 3 (twice),   7.  1 ♭3 ♭7¯ 1 (twic"
+68,scale_degrees,2 3 2 3 5 1 2,"5 3 2 1 2 3 (three times),   3.  2 3 2 1 6¯ 5¯ (three times),   4.  5 6 1­ 2 ­ 1­ 6¯ (twice),   5.  2 3 2 3 5 1 2 (twice),   6.  1 6 5 3 (twice),   7.  1 ♭3 ♭7¯ 1 (twice),   8.  1 ♭7¯ 5¯ ♭7¯ 1 ♭3­ (tw"
+68,scale_degrees,1 6 5 3,"3.  2 3 2 1 6¯ 5¯ (three times),   4.  5 6 1­ 2 ­ 1­ 6¯ (twice),   5.  2 3 2 3 5 1 2 (twice),   6.  1 6 5 3 (twice),   7.  1 ♭3 ♭7¯ 1 (twice),   8.  1 ♭7¯ 5¯ ♭7¯ 1 ♭3­ (twice), and   9.  3 2 3 2 1 2 ("
+68,scale_degrees,3 2 3 2 1 2,"wice),   6.  1 6 5 3 (twice),   7.  1 ♭3 ♭7¯ 1 (twice),   8.  1 ♭7¯ 5¯ ♭7¯ 1 ♭3­ (twice), and   9.  3 2 3 2 1 2 (twice).              Figure 3.5: A collection of specific melodic patterns derived from"
+69,scale_degrees,"1 2 3 5, 2","dley,” I employed the use of several of the melodic patterns, which  I had identified, including 1) 1 2 3 5, 2) 5 6 1 2 1 6, 3) 3 2 3 2 1 2, 4) 5 6 1 2 1 6, 5) 5 3 2 1 2 3,  and 6) 1 6 5 3. I drew on"
+69,scale_degrees,"5 6 1 2 1 6, 3","loyed the use of several of the melodic patterns, which  I had identified, including 1) 1 2 3 5, 2) 5 6 1 2 1 6, 3) 3 2 3 2 1 2, 4) 5 6 1 2 1 6, 5) 5 3 2 1 2 3,  and 6) 1 6 5 3. I drew on these patter"
+69,scale_degrees,"3 2 3 2 1 2, 4","several of the melodic patterns, which  I had identified, including 1) 1 2 3 5, 2) 5 6 1 2 1 6, 3) 3 2 3 2 1 2, 4) 5 6 1 2 1 6, 5) 5 3 2 1 2 3,  and 6) 1 6 5 3. I drew on these patterns and on syncop"
+69,scale_degrees,"5 6 1 2 1 6, 5","melodic patterns, which  I had identified, including 1) 1 2 3 5, 2) 5 6 1 2 1 6, 3) 3 2 3 2 1 2, 4) 5 6 1 2 1 6, 5) 5 3 2 1 2 3,  and 6) 1 6 5 3. I drew on these patterns and on syncopated rhythms, a"
+69,scale_degrees,5 3 2 1 2 3,", which  I had identified, including 1) 1 2 3 5, 2) 5 6 1 2 1 6, 3) 3 2 3 2 1 2, 4) 5 6 1 2 1 6, 5) 5 3 2 1 2 3,  and 6) 1 6 5 3. I drew on these patterns and on syncopated rhythms, a key feature of j"
+69,scale_degrees,1 6 5 3,"fied, including 1) 1 2 3 5, 2) 5 6 1 2 1 6, 3) 3 2 3 2 1 2, 4) 5 6 1 2 1 6, 5) 5 3 2 1 2 3,  and 6) 1 6 5 3. I drew on these patterns and on syncopated rhythms, a key feature of jazz,  before composin"
+69,scale_degrees,"1 2 3 5, 1 2 3 5 3, 1 3 2 1 6","ormance, and improvisation (Figure 3.6).     Other melodic patterns in a pentatonic scale—including 1 2 3 5, 1 2 3 5 3, 1 3 2 1 6¯, and in  particular, 1 2 3 5 6—can also be widely observed in the set"
+69,scale_degrees,1 2 3 5 6,"elodic patterns in a pentatonic scale—including 1 2 3 5, 1 2 3 5 3, 1 3 2 1 6¯, and in  particular, 1 2 3 5 6—can also be widely observed in the set of melodic patterns called thang  (roughly equivale"
+75,scale_degrees,1 2 3 4,"hat the accented beat found in Thai  classical music is typically located on the fourth beat (i.e., 1 2 3 4, or 1 & 2 & in eighth notes),  rather than on the first beat as is common in Western music."
+96,lai_mode,"e, a","lai se, a"
+98,western_notes,"G, A, C, D, E","haen hok, the smallest organ (six pipes in  total, e.g., the khaen hok in G is capable of producing G, A, C, D, E, and G­ , 2) khaen jed  (fourteen pipes in total—e.g., a khaen jed in Am—consisting of"
+98,western_notes,"A, B, C, D, E, F, G, A",", A, C, D, E, and G­ , 2) khaen jed  (fourteen pipes in total—e.g., a khaen jed in Am—consisting of A, B, C, D, E, F, G, A­,  B ­,  C­, D,­ E,­, and F ­, i.e., less than two octaves), and 3) khaen kao"
+98,western_notes,"A, B, C, D, E, G, A","en kao, the biggest organ (with  eighteen pipes in total, a khaen kao in Am is capable of producing A, B, C, D, E, G, A­,  B ­,                                                           187 For more d"
+99,interval,P4,". A set of such sustained pitches, consisting of the root,  P4, P5, and octave notes which are explicitly heard in isan"
+99,interval,P5,"set of such sustained pitches, consisting of the root,  P4, P5, and octave notes which are explicitly heard in isan nuea"
+100,chord_progression,D-A-G1,"ed the notion of the lai noi tuning system, which was founded in  Nong Kai Province and is tuned to D-A-G193—in contrast to Terry Miller’s study on lai noi,  from a different region where the instrume"
+100,chord_progression,A-D-A,"trast to Terry Miller’s study on lai noi,  from a different region where the instrument is tuned to A-D-A.194     Based on my work with phin performers in 2016–2017 with the Faculty of Music, Silpakor"
+100,chord_progression,E-A-E,gional tuning methods. These  systems are divided into three categories for a three-string phin: 1) E-A-E (the most widely- used); 2) E-A-A; and 3) E-B-E. There are four tuning categories for a two-st
+100,chord_progression,E-A-A,ems are divided into three categories for a three-string phin: 1) E-A-E (the most widely- used); 2) E-A-A; and 3) E-B-E. There are four tuning categories for a two-string phin: 1) E-A;  2) E-B; 3) E-D
+100,chord_progression,E-B-E,d into three categories for a three-string phin: 1) E-A-E (the most widely- used); 2) E-A-A; and 3) E-B-E. There are four tuning categories for a two-string phin: 1) E-A;  2) E-B; 3) E-D; and 4) E-E.
+100,chord_progression,E-A-E-A,"string phin: 1) E-A;  2) E-B; 3) E-D; and 4) E-E. Finally, four varieties of a four-string phin: 1) E-A-E-A; 2) E-A-E- B; 3) A-E-A-E; and 4) E-E-A-A. (Please note that the first letter refers to the f"
+100,chord_progression,"E-A-E-
+B","1) E-A;  2) E-B; 3) E-D; and 4) E-E. Finally, four varieties of a four-string phin: 1) E-A-E-A; 2) E-A-E- B; 3) A-E-A-E; and 4) E-E-A-A. (Please note that the first letter refers to the first string—"
+100,chord_progression,A-E-A-E,"E-B; 3) E-D; and 4) E-E. Finally, four varieties of a four-string phin: 1) E-A-E-A; 2) E-A-E- B; 3) A-E-A-E; and 4) E-E-A-A. (Please note that the first letter refers to the first string—the  lowest p"
+100,chord_progression,E-E-A-A,"4) E-E. Finally, four varieties of a four-string phin: 1) E-A-E-A; 2) E-A-E- B; 3) A-E-A-E; and 4) E-E-A-A. (Please note that the first letter refers to the first string—the  lowest pitch—while the s"
+102,interval,P4,"and two pitches, which  primarily build up from minor 3rd, P4, P5, minor 7th, and an octave; alternatively, the players"
+102,interval,P5,"two pitches, which  primarily build up from minor 3rd, P4, P5, minor 7th, and an octave; alternatively, the players  pl"
+102,interval,M2,"s  play a set of three pitches, which usually build up from M2 and P4, and are equivalent to a  suspended chord in jazz"
+102,interval,P4,"a set of three pitches, which usually build up from M2 and P4, and are equivalent to a  suspended chord in jazz harmony"
+104,chord_progression,G-A-C-D,"answer for constructing  thematic melody parts (mm.3-8), melodic sequence (primarily built up from G-A-C-D in  mm.14-22 and A-G-E-D in mm.23-27), and repetition (D-E-G) in mm.28-36 (indicated by the"
+104,chord_progression,A-G-E-D,"thematic melody parts (mm.3-8), melodic sequence (primarily built up from G-A-C-D in  mm.14-22 and A-G-E-D in mm.23-27), and repetition (D-E-G) in mm.28-36 (indicated by the  red arrows in Figure 4.5"
+104,chord_progression,D-E-G,"ic sequence (primarily built up from G-A-C-D in  mm.14-22 and A-G-E-D in mm.23-27), and repetition (D-E-G) in mm.28-36 (indicated by the  red arrows in Figure 4.5).204"
+107,western_notes,"A, C, D, E, G","lai thang san (major pentatonic scales) (Figure 4.6).   lai thang yao    1. lai yai, consisting of A, C, D, E, G (A minor pent.)        2. lai noi, or lai long noi, consisting of D, F, G, A, C (D min"
+107,western_notes,"D, F, G, A, C","yai, consisting of A, C, D, E, G (A minor pent.)        2. lai noi, or lai long noi, consisting of D, F, G, A, C (D minor pent.)    3. lai se, consisting of E, G, A, B, D (E minor pent.)      lai tha"
+107,western_notes,"E, G, A, B, D",". lai noi, or lai long noi, consisting of D, F, G, A, C (D minor pent.)    3. lai se, consisting of E, G, A, B, D (E minor pent.)      lai thang san  4. lai sutsanaen, consisting of C, D, E, G, A (C m"
+107,western_notes,"C, D, E, G, A","se, consisting of E, G, A, B, D (E minor pent.)      lai thang san  4. lai sutsanaen, consisting of C, D, E, G, A (C major pent.)     5. lai pong sai, consisting of F, G, A, C, D (F major pent.)"
+107,western_notes,"F, G, A, C, D","n  4. lai sutsanaen, consisting of C, D, E, G, A (C major pent.)     5. lai pong sai, consisting of F, G, A, C, D (F major pent.)           6. lai soi, consisting of G, A, B, D, E (G major pent.)"
+107,western_notes,"G, A, B, D, E","5. lai pong sai, consisting of F, G, A, C, D (F major pent.)           6. lai soi, consisting of G, A, B, D, E (G major pent.)       Figure 4.6: Lai thang yao and lai thang san.    As isan nuea is"
+107,lai_mode,"A, C, D, E, G","lai yai, consisting of A, C, D, E, G"
+107,lai_mode,"D, F, G, A, C","lai noi, or lai long noi, consisting of D, F, G, A, C"
+107,lai_mode,"E, G, A, B, D","lai se, consisting of E, G, A, B, D"
+107,lai_mode,"C, D, E, G, A","lai sutsanaen, consisting of C, D, E, G, A"
+107,lai_mode,"F, G, A, C, D","lai pong sai, consisting of F, G, A, C, D"
+107,lai_mode,"G, A, B, D, E","lai soi, consisting of G, A, B, D, E"
+108,interval,m2,"avoid using unpleasant pitches, which they refer as sieng som206 (sour sound) while  performing as solo instruments, or"
+110,chord_progression,A-G-E,"94  To intertwine musical ideas together, Buahong also uses several sixteenth-note motifs, such as  A-G-E, which can be observed in mm.9-11 and m. 23. In addition, he plays staccato quarter  notes on"
+112,interval,d4,Media (2005).   <https://open.spotify.com/track/6BCPBVMJyMZd4Qn5WyNVvG?si=0f5282436ee343a8>.  216 Please note that some
+115,western_notes,"E, F, G","ranscription of “Lai Teay Klong” performed by  Sombat Simlah.)217                  Figure 4.12: The E, F, G and H sections of “Lai Teay Khong.” Transcription by the  author."
+123,western_notes,"C, F, G","of modes to accompany the vocal is divided into three types—namely, the  use of lai thang san, the C, F, G major pentatonic scales for a short performance (lum thang san)  which contains faster tempo"
+123,western_notes,"A, D, E","ic scales for a short performance (lum thang san)  which contains faster tempos, and lai thang yai (A, D, E) for a longer performance with a slow  tempo, in which the vocalist sings longer poems. Mean"
+123,lai_mode,"C, F, G","lai thang san, the C, F, G"
+123,lai_mode,"A, D, E","lai thang yai (A, D, E"
+127,western_notes,"B, C, D, E, F, 
+G, A, B","uces seven diatonic  pitches per octaves over a range of approximately 2 octaves. These pitches are B, C, D, E, F,  G, A, B ­, C­, D,­ E,­, F ­, G­, A­,  B­­ C­­, D­­ in the standard model (42 cm).  S"
+128,western_notes,"G, D, A, B","wards, from mm.19- 28, the melodic repetitive patterns undulate, primarily including the pitches of G, D, A, B— with the B note observable as the highest note in these patterns which eventually transf"
+132,western_notes,"D, G, D, G","gher pitch, and a G  for the lower pitch. The mong player (nai mong) provides alternating sounds of D, G, D, G to  indicate continuous time for nora ensembles. Alternatively, the instrument can be per"
+132,western_notes,"D, D, D, 
+G","e performed  only as D or G, or it can be rearranged to a different pattern of the two notes (e.g., D, D, D,  G) based on the type of composition accompanying the nora dancers while performing. In  ad"
+132,interval,M2,"Anthropology Centre <https://www.youtube.com/watch?v=KoUjwkLM2zM&t=912s> (14  October 2021).   237 Thammanit Nikhonrat,"
+135,interval,d2,"Promil on the pi nora performing techniques of Umnad Nuniad238, a pi nora master and respected  teacher from Phatthalu"
+139,chord_progression,G-A-C-D-E,"thod of jazz analysis of Chapter 3, the fundamental patterns of this composition are also  based on G-A-C-D-E (5-6-1-2-3) and E-G-A-C (3-5-6-1), both of which can be found in  several locations throug"
+139,chord_progression,E-G-A-C,"hapter 3, the fundamental patterns of this composition are also  based on G-A-C-D-E (5-6-1-2-3) and E-G-A-C (3-5-6-1), both of which can be found in  several locations throughout the performance. Furt"
+142,interval,d2,rong ngeng performances during the Portuguese colonial period251  and somewhat neglect the crucial discussion of rong ng
+159,chord_progression,D-E-F-G-A-B-C,"ries based on the size of  instruments, namely: 1) the pi koy system (in C), which starts from C(4)-D-E-F-G-A-B-C­                                                           280 Pornprasit, The perform"
+160,chord_progression,A-B-C-D-E-F-G,"ontri paknuea      144  (within one octave); 2) the pi klang system (in C),  which starts from G(3)-A-B-C-D-E-F-G­;  3) the pi lek system (in C), which is produced from G(4)-A-B-C-D-E-F-G­; 4) the pi"
+160,chord_progression,A-B-C-D-E-F-G,",  which starts from G(3)-A-B-C-D-E-F-G­;  3) the pi lek system (in C), which is produced from G(4)-A-B-C-D-E-F-G­; 4) the pi mae in C,  which is constructed from D(3)-E-F-G-A-B-C (only six holes, and"
+160,chord_progression,E-F-G-A-B-C,"C), which is produced from G(4)-A-B-C-D-E-F-G­; 4) the pi mae in C,  which is constructed from D(3)-E-F-G-A-B-C (only six holes, and hence rarely used); and 5)  the pi tat system (in C), starting from"
+160,chord_progression,D-E-F-G-A-B-C,"A-B-C (only six holes, and hence rarely used); and 5)  the pi tat system (in C), starting from C(5)-D-E-F-G-A-B-C­.      When creating sound on pi jum instruments, pi jum players (chang pi in Lanna di"
+168,interval,m6,"w Artists' Association  <https://www.youtube.com/watch?v=4TVm64sIvS0> (5 November 2020).  294 For transcription’s MIDI,"
+173,scale_degrees,"5, 3, 
+2","ally applied  to the principal melodic patterns of “Phumin.” These selected patterns—1) 1-6-2-1-6-1-5, 3,  2) 2-3-5-5-6-1-3-2-1, and 3) 1-6-2-1-6-1-5—from the “Saw Pan Fai” composition, were  transpos"
+189,interval,A2,"ee initial thematic melodies  include Melody A (mm.21- 29), A2 (mm. 30–38), B (mm.39-46), and C (mm.47- 59), all of  whi"
+189,interval,A2,"ponse and melodic variation also serve to  construct melody A2, which is a slight variation of melody A. In contrast to"
+189,interval,A2,"light variation of melody A. In contrast to melodies A and  A2, however, the melodic patterns of B and C are more comple"
+189,interval,A2,ting ideas generated  from the repetition of melodies A and A2; B and C are also performed in medium swing. The  conclud
+190,interval,A2,"The first thematic melodies of “Phuen Ban”: A (mm.21- 29), A2 (mm. 30– 38), B (mm.39-46), and C (mm.47- 59).    To emph"
+194,western_notes,"G♭, F, E♭","dhood memories of growing up in a Thai southern-Chinese household. These  pentatonic scales include G♭, F, E♭, and A♭ pentatonic. I use them in this piece to create more"
+216,interval,d2,e Sucharitkul (0.03-0.16)  <https://www.youtube.com/watch?v=d2LIw845J-U> uploaded by Wisetdontree (3 February 2011).   P
+223,interval,A2,ne Arts Department <https://www.youtube.com/watch?v=9zSSKrh6A2Y> (16 July  2021).
+267,interval,A4,"nt, Thailand (4.15- 5.10) <https://www.youtube.com/watch?v=TA4qdz00RBc> uploaded by Korathome (28 May 2018)."
+274,interval,A7,"y, I constructed a  simple chord progression moving between A7sus4 and G7sus4 and back again, with improvisation  by the"
+328,interval,d7,4280/rabam-sukhothaitranscription/s- iYzXpj67Bvd?si=13c0ac47d7674f98ae6c6595b8f1fc42    (2) “Soi Sang Dang” (Appendix C.
+328,interval,d7,54280/soi-sang-dang-transcription/s- LGW6BLl8vou?si=13c0ac47d7674f98ae6c6595b8f1fc42    (3) “Lao Somdej” (Appendix C.3)
+328,interval,d7,264254280/lao-somdejtranscription/s- EwGl6h3MosM?si=13c0ac47d7674f98ae6c6595b8f1fc42    (4) “Saen Kham Nung” (Appendix C
+328,interval,d7,4280/saen-kham-nung-transcription/s- FbhkMexZS4N?si=13c0ac47d7674f98ae6c6595b8f1fc42    (5) “Lai Ka Ten Kon” (Appendix C
+328,interval,d7,4280/lai-ka-ten-kon-transcription/s- pBVaci9x1sc?si=13c0ac47d7674f98ae6c6595b8f1fc42    (6) “Lai Kaeo Na Ma” (Appendix C
+328,interval,d7,4280/lai-kaeo-na-ma-transcription/s- VaCFURLOPJP?si=13c0ac47d7674f98ae6c6595b8f1fc42    (7) “Lai Ka Ten Kon” (pong lang
+328,interval,d7,80/lai-ka-ten-kon-transcription-1/s- TwStfBN0VfI?si=13c0ac47d7674f98ae6c6595b8f1fc42
+329,interval,d7,ser-264254280/lai-setranscription/s- T7Sno0U3jjV?si=13c0ac47d7674f98ae6c6595b8f1fc42    (9) “Lai Teay Khong” (Appendix C
+329,interval,d7,4280/lai-teay-khong-transcription/s- Erzdx39dsXW?si=13c0ac47d7674f98ae6c6595b8f1fc42    (10) khuen hua pi (Appendix C.10
+329,interval,d7,254280/khuen-hua-pi-transcription/s- IeLXxBRnu88?si=13c0ac47d7674f98ae6c6595b8f1fc42    (11) “Chak Bai” (Appendix C.11)
+329,interval,d7,-264254280/chak-bai-transcription/s- ZC6HqZRGAew?si=13c0ac47d7674f98ae6c6595b8f1fc42    (12) “Patcha” (Appendix C.12)
+329,interval,d7,er-264254280/patcha-transcription/s- FKozAXrgq39?si=13c0ac47d7674f98ae6c6595b8f1fc42    (13) lagu dua (rebana patterns)
+329,interval,d7,-264254280/lagu-dua-transcription/s- 5QnrCW686QK?si=13c0ac47d7674f98ae6c6595b8f1fc42    (14) mak iang (Appendix C.14)
+329,interval,d7,264254280/mak-inang-transcription/s- ADfDXlTCG28?si=13c0ac47d7674f98ae6c6595b8f1fc42    (15) sinadong (Appendix C.15)
+329,interval,d7,r-264254280/singdongtranscription/s- wofuf68NQnP?si=13c0ac47d7674f98ae6c6595b8f1fc42    (16) Asli (Appendix C.16)    htt
+329,interval,d6,soundcloud.com/user-264254280/inang?si=2313ef8c1c664f39af491d6c7b33b55d
+330,interval,d6,/soundcloud.com/user-264254280/joget?si=f1eac0c1fe914e998a20d60f4bd9c724    (19) “Lenang” (Appendix C.19)    https://sou
+330,interval,M3,://soundcloud.com/user-264254280/lenangtranscription/s- TKzQM379eu2?si=f695c8bdd7b24fa2a41c58adfd781741    (20) “Laga Du
+330,interval,d7,ser-264254280/lenangtranscription/s- TKzQM379eu2?si=f695c8bdd7b24fa2a41c58adfd781741    (20) “Laga Dua” (The rong ngeng
+330,interval,d7,angtranscription/s- TKzQM379eu2?si=f695c8bdd7b24fa2a41c58adfd781741    (20) “Laga Dua” (The rong ngeng composition of th
+330,interval,A3,undcloud.com/user-264254280/lagu-dua-tanscription/s- 4FsRZY8A3ef?si=13c0ac47d7674f98ae6c6595b8f1fc42    (21) “Saw Eue” (
+330,interval,d7,r-264254280/lagu-dua-tanscription/s- 4FsRZY8A3ef?si=13c0ac47d7674f98ae6c6595b8f1fc42    (21) “Saw Eue” (Appendix C.21)
+330,interval,d7,er-264254280/saw-euutranscription/s- iPcXntYGkFM?si=f695c8bdd7b24fa2a41c58adfd781741    (22) “Thamnong Ngiew” (Appendix
+330,interval,d7,euutranscription/s- iPcXntYGkFM?si=f695c8bdd7b24fa2a41c58adfd781741    (22) “Thamnong Ngiew” (Appendix C.22)    https://
+330,interval,d7,4280/thamnong-ngiew-transcription/s- XDjnhLhVvg4?si=f695c8bdd7b24fa2a41c58adfd781741    (23) “Saw Dan Nan” (Appendix C.2
+330,interval,d7,ew-transcription/s- XDjnhLhVvg4?si=f695c8bdd7b24fa2a41c58adfd781741    (23) “Saw Dan Nan” (Appendix C.23)    https://sou
+330,interval,d7,4254280/saw-dan-nan-transcription/s- 9J6t7DVdrIF?si=f695c8bdd7b24fa2a41c58adfd781741    (24) “Saw Pan Fai” (Appendix C.2
+330,interval,d7,an-transcription/s- 9J6t7DVdrIF?si=f695c8bdd7b24fa2a41c58adfd781741    (24) “Saw Pan Fai” (Appendix C.24)    https://sou
+330,interval,d7,64254280/saw-pan-faitranscription/s- 0NnH8J5HZlc?si=f695c8bdd7b24fa2a41c58adfd781741
+330,interval,d7,faitranscription/s- 0NnH8J5HZlc?si=f695c8bdd7b24fa2a41c58adfd781741
+335,interval,A7,.˙ .˙ .˙ ∑ .˙ .˙ ’ ’ ’ ’ ’ ’ ’ ’ ww ww w ’ ’ ’ ’ 7 ’ ’ ’ ’ A7sus G7sus G7sus f f f f f ∑ ˙# œ# œ œ 3 ˙ œ# œ œ 3 ˙ œ œ œ
+336,interval,A7,J Û (triangle) 17 xœ œ œ x xœ œ œ x E-11 G@7 B7sus D-11 F@7 A7sus D-11 F@7 A7sus D-11 F@7 F F F F ∑ .œ ≈œœ .œ Jœ# ˙ .œ J
+336,interval,A7,17 xœ œ œ x xœ œ œ x E-11 G@7 B7sus D-11 F@7 A7sus D-11 F@7 A7sus D-11 F@7 F F F F ∑ .œ ≈œœ .œ Jœ# ˙ .œ Jœ# ˙ .œ Jœ ˙ œ
+336,interval,A7,œ ˙ ˙ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ∑ ’ ’ ’ ’ | | 18 xœ xœ œ xœ œ œ œœ A7sus G7sus G7sus G7sus A7sus > > > > > > > > > > > > > BUAN
+336,interval,A7,∑ ’ ’ ’ ’ | | 18 xœ xœ œ xœ œ œ œœ A7sus G7sus G7sus G7sus A7sus > > > > > > > > > > > > > BUANG-SUANG (DEITY WORSHIP)
+338,scale_degrees,"3
+3
+3",.˙# .˙# .˙ .˙ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œn ∑ œ œ œ ’ ’ ’ 28 ’ ’ ’ ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ ∑ ∑ ∑ to tpt. ∑ ∑ ∑ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ (organ) ∑ œ œ œ ’ ’ ’ 29 ’ ’ ’ A9sus G9s
+338,scale_degrees,"3
+3
+3",œ œ ’ ’ ’ 28 ’ ’ ’ ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ ∑ ∑ ∑ to tpt. ∑ ∑ ∑ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ (organ) ∑ œ œ œ ’ ’ ’ 29 ’ ’ ’ A9sus G9sus G9sus {B} F F Öto c^up Öto h^a^r^m^on F ∑ ∑ ∑
+338,scale_degrees,"3
+3
+3",’ ’ ’ 29 ’ ’ ’ A9sus G9sus G9sus {B} F F Öto c^up Öto h^a^r^m^on F ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ ’ ’ ’ 30 ’ ’ ’ F#9sus E9sus E9sus Öto h^
+338,scale_degrees,"3
+3
+3",F Öto c^up Öto h^a^r^m^on F ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ ’ ’ ’ 30 ’ ’ ’ F#9sus E9sus E9sus Öto h^a^r^m^on > > > > > > > > > > > > > > > >
+339,scale_degrees,"3
+3
+3",t. 3 Tpt. 4 Tbn. 1 Tbn. 2 Tbn. 3 B. Tbn. Gtr. Bs. Perc. D. S. Org. ∑ ∑ ∑ ’ ’ ’ ∑ ‰ œn œ ‰ œ œ ‰ œ œ 3 3 3 ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ∑ œb œ œ ’ ’ ’ 31 ’ ’ ’ D-7 C-7 C-7 C-7 ∑ ∑ ∑ ’ ’ ∑ ‰ œn œ Œ 3 Œ ‰
+339,scale_degrees,"3
+3
+3",œ# ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ œb œ ’ ’ 32 ’ ’ ÖhaÜrmon F F ÖhaÜrmon Öcup ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 .˙ .˙ ∑ .˙ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ∑ œ œ œ ’ ’ ’ 33 ’ ’ ’ A7sus G9sus G9sus G9sus F ∑ ∑ ∑ ’ ’ ’ ∑
+339,scale_degrees,"3
+3
+3",∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ∑ œ œ œ ’ ’ ’ 33 ’ ’ ’ A7sus G9sus G9sus G9sus F ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 .œ œ Jœ .œ# œ Jœb ∑ .œ œ jœ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ∑ œ œ œ ’ ’ ’ 34 ’ ’ ’ .œ œ jœ F#9sus E9sus E9
+339,scale_degrees,"3
+3
+3
+3",9sus E9sus E9sus ∑ ∑ ∑ ’ ’ ’ ’ ∑ .˙b Œ ˙ œ œ œ ˙ œ œ œ# ∑ ˙ œ œ œ ∑ ∑ ∑ ‰ œb œ ‰ œb œ ‰ œb œ ‰ œb œ 3 3 3 3 ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ œ œ œ ’ ’ ’ ’ 35 ’ ’ ’ ˙ œ œ œ Bb@9(#11) Ab@9(#11) Ab@9(#11) P ∑ ∑ ∑ ’ ’
+339,interval,A7,3 3 3 .˙ .˙ ∑ .˙ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ∑ œ œ œ ’ ’ ’ 33 ’ ’ ’ A7sus G9sus G9sus G9sus F ∑ ∑ ∑ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3
+340,interval,A7,œ œ œ ∑ ∑ ∑ œ œ œ ∑ œ œ œ ∑ œ œ œ ˙ ’ ’ ’ ’ ∑ ˙ ’ ’ 40 ’ ’ A7sus G7sus G7sus P P P P ÖÜopen ÖÜopen ∑ ∑ œ œ œ œ œ ’ ’ ’
+343,interval,A7,‰ Jœ ˙ ∑ ∑ ∑ œ ‰ Jœ ˙ Û ‰ J Û | ∑ Û ‰ J Û | ∑ 59 Û ‰ J Û | A7sus A7sus p ∑ Œ œ- œ#- œ ≈œ œ œ Œ Ó œ œ - œ- œ ≈œ œ œ ∑ ∑
+343,interval,A7,˙ ∑ ∑ ∑ œ ‰ Jœ ˙ Û ‰ J Û | ∑ Û ‰ J Û | ∑ 59 Û ‰ J Û | A7sus A7sus p ∑ Œ œ- œ#- œ ≈œ œ œ Œ Ó œ œ - œ- œ ≈œ œ œ ∑ ∑ ∑ ∑ ∑
+344,scale_degrees,"3
+3
+3
+3",Tpt. 4 Tbn. 1 Tbn. 2 Tbn. 3 B. Tbn. Gtr. Bs. Perc. D. S. E. Pno. ∑ w ∑ w w ‰ œ œ ‰ œ œ ‰ œn œ ‰ œ œ 3 3 3 3 ∑ ∑ ∑ ∑ w w ∑ ∑ w ‰ œ œ ‰ œ œ ‰ œb œ ‰ œ œ 3 3 3 3 œ œ œb œ ’ ’ ’ ’ ∑ 61 ’ ’ ’ ’ fill p ∑ .˙
+344,scale_degrees,"3
+3
+3
+3",D. S. E. Pno. ∑ w ∑ w w ‰ œ œ ‰ œ œ ‰ œn œ ‰ œ œ 3 3 3 3 ∑ ∑ ∑ ∑ w w ∑ ∑ w ‰ œ œ ‰ œ œ ‰ œb œ ‰ œ œ 3 3 3 3 œ œ œb œ ’ ’ ’ ’ ∑ 61 ’ ’ ’ ’ fill p ∑ .˙ Œ ∑ .˙ œ œœ 3 (expressive) .˙ Œ .˙ Œ Ó Œ œ œœ 3 (e
+344,scale_degrees,"3
+3
+3
+3",‰ Jœ Jœ œ Jœ ∑ ∑ œ ‰ Jœ Jœ œ Jœ ∑ ∑ ∑ ∑ .˙ œ œ Ó Œ ‰ Jœ ∑ œ ‰ J œ J œ œ Jœ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 63 ’ ’ ’ ’ E7sus p ∑ ∑ Ó œ# œ# œ# 3 ˙ œ œ œ 3 w # œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3
+344,scale_degrees,"3
+3
+3
+3",œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 63 ’ ’ ’ ’ E7sus p ∑ ∑ Ó œ# œ# œ# 3 ˙ œ œ œ 3 w # œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ˙ œ œ# œ 3 ∑ ∑ ∑ ∑ w w ∑ ˙ œ œ œ 3 œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 64 ’ ’ ’ ’ g@
+344,scale_degrees,"3
+3
+3
+3",œ 3 w # œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ˙ œ œ# œ 3 ∑ ∑ ∑ ∑ w w ∑ ˙ œ œ œ 3 œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 64 ’ ’ ’ ’ g@7 P p ∑ ∑ .œ Jœ œ# œ œ# 3 .œ Jœ œ œ œ 3 w ˙ Ó .œ Jœ œ œ œ 3 ∑ ∑ ∑ ∑
+344,scale_degrees,"3
+3
+3
+3",∑ .œ Jœ œ# œ œ# 3 .œ Jœ œ œ œ 3 w ˙ Ó .œ Jœ œ œ œ 3 ∑ ∑ ∑ ∑ w w ∑ ˙ œ œ œ 3 œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ œ œ œ ˙ 3 ∑ 65 ’ ’ Û Û Û 3 F@7 ∑ ∑ œ ‰ Jœ# œ œ œ œ ‰ Jœ œ œ œ w w # .˙ Œ ∑ Ó œ- œ œ Œ ‰ Jœ
+344,scale_degrees,"3
+3
+3
+3",∑ œ ‰ Jœ# œ œ œ œ ‰ Jœ œ œ œ w w # .˙ Œ ∑ Ó œ- œ œ Œ ‰ Jœ œ- œ œ ∑ w ∑ ∑ .˙ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 66 ’ ’ ’ ’ d@7 f f > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+345,scale_degrees,"3
+3
+3
+3",’ ’ ’ ’ ∑ 70 ’ ’ ’ ’ P P P P P P P ∑ œ ≈œ# œ ˙ œ ≈œ œ# ˙ œ ≈œ œ ˙ œ ≈œ œ# ˙ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ∑ ∑ to tpt. œ ≈œ# œ ˙ œ ≈œ œ ˙ œ ≈œ œ ˙ ∑ ∑ ’ ’ ’ ’ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’
+345,scale_degrees,"3
+3
+3
+3",œ œ œ œ œ œ œ 3 3 3 3 ∑ ∑ ∑ to tpt. œ ≈œ# œ ˙ œ ≈œ œ ˙ œ ≈œ œ ˙ ∑ ∑ ’ ’ ’ ’ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 71 ’ ’ ’ ’ E-7 E-7 ∑ w w # w w œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ∑ ∑ w w w ∑ ∑ ’
+345,scale_degrees,"3
+3
+3
+3",œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 71 ’ ’ ’ ’ E-7 E-7 ∑ w w # w w œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ∑ ∑ w w w ∑ ∑ ’ ’ ’ ’ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 72 ’ ’ ’ ’ > > > > > > >
+345,scale_degrees,"3
+3
+3
+3",E-7 E-7 ∑ w w # w w œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ∑ ∑ w w w ∑ ∑ ’ ’ ’ ’ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 72 ’ ’ ’ ’ > > > > > > > > > > > > > > > > > > > > > > > > > > > > > BUANG-SUANG
+346,scale_degrees,"3
+3
+3
+3",# œ œ Œ Ó œ œ œ# œ œ ˙ ∑ ‰≈œœœ œ œ# œ ∑ œ Œ Ó To Tpt. œ Œ Ó œ Œ Ó Ó Œ ‰ Jœ ∑ ’ ’ ’ ’ œœœ œœœ œœœœœœ 3 3 3 3 ∑ ’ ’ ’ ’ ∑ 73 ’ ’ ’ ’ Fill P p f ÖhaÜrmon ∑ ’ ’ ’ ’ air sounds w ∑ wb ‰ Jœ œ- œn œ œ ’ ’ ’
+346,scale_degrees,"3
+3
+3
+3",’ ’ (solo w./ harmon mute) w ∑ ∑ ‰ Jœ œ- œb œ œ wb w ∑ ‰ Jœ œ- œb œ œ ’ ’ ’ ’ ∑ œb œb œb œœœœœœœœœ 3 3 3 3 ∑ 74 ’ ’ ’ ’ bb@13 Ab@13 p p P P Öto h^a^r^m^on Öto c^up ∑ ’ ’ ’ ’ ˙ œ œ# œ 3 ∑ w # œ œ œ œ-
+346,scale_degrees,"3
+3
+3
+3",œn 3 ’ ’ ’ ’ ∑ ∑ ∑ œ œ œ œ- œ œ œb 3 œ œ œ œ- œ œ œb 3 w ∑ œ œ œ œ- œ œ 3 ’ ’ ’ ’ ∑ œœœœœ œœœœœœ œ 3 3 3 3 ∑ 75 ’ ’ ’ ’ B-11 A-11 ∑ ’ ’ ’ ’ w Ó ‰≈œ œn œ œn œ 3 w œ .œ œ œ œ œ 3 ’ ’ ’ ’ Ó ‰≈œ œœ œ œ 3
+346,scale_degrees,"3
+3
+3
+3",3 ’ ’ ’ ’ Ó ‰≈œ œœ œ œ 3 ˙ ‰≈œ œœ œ œ 3 w œ .œ œ œ œ œ 3 œ .œ œ œ œ œ 3 wb œb œb œb œ œ œ œ œœœ œ œ 3 3 3 3 œb œ œ œ œ œ 3 ’ ’ ’ ’ ∑ œb œb œb œ œ œ œ œœœ œ œ 3 3 3 3 ∑ 76 ’ ’ ’ ’ bb@13 ab@13 Öcup ÖhaÜ
+346,scale_degrees,"3
+3
+3
+3",.œ œ œ œ œ 3 wb œb œb œb œ œ œ œ œœœ œ œ 3 3 3 3 œb œ œ œ œ œ 3 ’ ’ ’ ’ ∑ œb œb œb œ œ œ œ œœœ œ œ 3 3 3 3 ∑ 76 ’ ’ ’ ’ bb@13 ab@13 Öcup ÖhaÜrmon P ∑ ’ ’ ’ ’ ∑ ˙ œ œ œn 3 ∑ w ’ ’ ’ ’ ˙ œ œ œ 3 ˙ œ œ
+346,scale_degrees,"3
+3
+3
+3",b@13 Öcup ÖhaÜrmon P ∑ ’ ’ ’ ’ ∑ ˙ œ œ œn 3 ∑ w ’ ’ ’ ’ ˙ œ œ œ 3 ˙ œ œ œ 3 w w w w œœœ œœœ œœœ œœœ 3 3 3 3 œœ .˙ ’ ’ ’ ’ ∑ œœœ œœœ œœœ œœœ 3 3 3 3 ∑ 77 ’ ’ ’ ’ Fill B-11 A-11 ∑ ’ ’ ’ ’ ∑ ˙ œ œ œ 3 ∑
+346,scale_degrees,"3
+3
+3
+3",n 3 ∑ w ’ ’ ’ ’ ˙ œ œ œ 3 ˙ œ œ œ 3 w w w w œœœ œœœ œœœ œœœ 3 3 3 3 œœ .˙ ’ ’ ’ ’ ∑ œœœ œœœ œœœ œœœ 3 3 3 3 ∑ 77 ’ ’ ’ ’ Fill B-11 A-11 ∑ ’ ’ ’ ’ ∑ ˙ œ œ œ 3 ∑ ‰ jœ œ œn œ œ ’ ’ ’ ’ ˙ œ œ œ 3 ˙ œ œ œ#
+346,scale_degrees,"3
+3
+3
+3",˙ œ œ œ 3 wb ’ ’ ’ ’ air sounds ∑ ‰ Jœ œ - œb œ œ ‰ Jœ œ- œb œ œ- ‰ Jœ œ œb œ œ œb œb œb œœœœœœ œœœ 3 3 3 3 wb ∑ 78 ’ ’ ’ ’ bb@13 > > > > > > > > > > > > BUANG-SUANG (DEITY WORSHIP) 15 330
+347,scale_degrees,"3
+3
+3
+3",Jœ# œ œ œ œ ‰ Jœ ˙ w ’ ’ ’ ’ ∑ œ œ œ œ - œ œ 3 œ œ œ œ- œ œ 3 œ œ œ œ œ œ 3 œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 w ∑ 79 ’ ’ ’ ’ B-11 ∑ ∑ Ó Œ ‰ œ œ 3 œn œ œ œ œ œ 3 ∑ œn œ œ œ œn œb 3 ’ ’ ’ ’ œ œ œ œ œ œ 3
+347,scale_degrees,"3
+3
+3
+3",’ ’ ’ ’ ’ ’ ’ ’ air sounds  œb œ œ œ œ œ 3 œb œ œ œ œ œ 3 œb œ œ œ œ œ 3 ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ 80 ’ ’ ’ ’ bb@13 ∑ ∑ œ ‰ Jœ œ ‰ œ œ# 3 ˙ Ó ∑ ˙ Ó ’ ’ ’ ’ ˙ Ó œ ‰ jœ œ ‰ œ œ 3 œ ‰ jœ œ ‰ œ
+347,scale_degrees,"3
+3
+3
+3",’ ˙ Ó œ ‰ jœ œ ‰ œ œ 3 œ ‰ jœ œ ‰ œ œ 3 w ’ ’ ’ ’ ’ ’ ’ ’ ˙ Ó ˙ Ó ’ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ 81 ’ ’ ’ ’ B-11 A-11 ∑ ∑ œ ‰ Jœ ˙ ∑ ‰ Jœ œ- œ œ œ ∑ ’ ’ ’ ’ ∑ œ Œ œ œ# œ 3 œ ‰ jœ ˙ ‰ Jœ œ
+348,interval,d6,| .Û J Û ∑ 90 ’ ’ ’ ’ cymbals roll & short solo a6 E-7 f#@7 d6 A-7 b@7 C6 G-7 a@7 c6 G-7 a@7 C6 G-7 a@7 F F F F F F F F
+350,interval,A7,’ ’ ’ ∑ ˙ œ œ œ 3 ∑ 97 x œ œ œ œ œ œ x x x x F#-7 B7sus E-7 A7sus E-7 A7sus ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ Û ‰ J Û ‰
+350,interval,A7,œ œ œ 3 ∑ 97 x œ œ œ œ œ œ x x x x F#-7 B7sus E-7 A7sus E-7 A7sus ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ Û ‰ J Û ‰ J Û ‰ J Û
+350,interval,d7,∑ œ ‰ Jœ ‰ Jœ œ Ó Œ x 98 ’ ’ ’ ’ (ideally sim.) E7sus D7sus d7sus ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ∑ ˙
+351,scale_degrees,"3
+3
+3",3 ’ ’ ’ 107 x œ ‰ jœ ‰ jœ ÖhaÜrmon P P ÖhaÜrmon ∑ ∑ ∑ ∑ ∑ ’ ’ ’ .˙ ∑ .˙ .˙ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ 3 3 3 (slap tongue) ∑ ∑ ‰ œ œ ‰ œ œ ‰ œ œ 3 3 3 Û ‰ J Û Û œ œ œ œ œ œ ( as written) ∑ .˙ ∑ 108 œæ œæ
+351,scale_degrees,"3
+3
+3",aÜrmon ∑ ∑ ∑ ∑ ∑ ’ ’ ’ .˙ ∑ .˙ .˙ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ 3 3 3 (slap tongue) ∑ ∑ ‰ œ œ ‰ œ œ ‰ œ œ 3 3 3 Û ‰ J Û Û œ œ œ œ œ œ ( as written) ∑ .˙ ∑ 108 œæ œæ x æ A9sus G9sus p p F Öcup > BUANG-SUANG
+352,scale_degrees,"3
+3
+3",. Gtr. Bs. Perc. D. S. E. Pno. ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ‰ J Û ˙ Ó ∑ .˙ œ œ ˙ Ó ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ‰ Jœb 3 3 3 ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ‰ Jœ 3 3 3 (slap tongue) ∑ ‰ œ œ ‰ œ œ ˙ 3 3 ’ ’ ’ ‰ J Û œ œ œ œ œ œ œ œ œ œ
+352,scale_degrees,"3
+3
+3",. ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ‰ J Û ˙ Ó ∑ .˙ œ œ ˙ Ó ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ‰ Jœb 3 3 3 ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ‰ Jœ 3 3 3 (slap tongue) ∑ ‰ œ œ ‰ œ œ ˙ 3 3 ’ ’ ’ ‰ J Û œ œ œ œ œ œ œ œ œ œ ∑ ˙ œ œ œ 3 Ó Œ x 109 œ œ œ
+352,scale_degrees,"3
+3
+3
+3",œ œ œ 3 Ó Œ x 111 x œ ‰ Jœ ‰ Jœ œ C#-11 B-11 B-11 P ∑ ∑ ∑ ∑ w # ’ ’ ’ ’ w ∑ w ∑ ¿¿¿¿ ¿¿¿¿ ¿¿¿¿ ¿¿¿¿ 3 3 3 3 w œ œ œ œ œ œ œ œ œ œ 3 3 ∑ ’ ’ ’ ’ ’ ’ ’ ’ ∑ w ∑ 112 œ œ œ œ œ œ œ œ ‰ jœ x x x x p ∑ ∑ ∑ ∑
+353,scale_degrees,"3
+3
+3
+3",Perc. D. S. E. Pno. ∑ ∑ œ# œ# œ œ œ œ œ œ (legato) ∑ w # ’ ’ ’ ’ w # ∑ w w # ¿¿¿¿ ¿¿¿¿ ¿¿¿¿ ¿ ¿ ¿ ¿ 3 3 3 3 ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ 3 3 3 3 ∑ w ’ ’ ’ ’ (tremolo for four bars) œ œ œ œ œ œ œ œ ∑ w Ó Œ
+353,scale_degrees,"3
+3
+3
+3",œ œ œ œ œ (legato) ∑ w # ’ ’ ’ ’ w # ∑ w w # ¿¿¿¿ ¿¿¿¿ ¿¿¿¿ ¿ ¿ ¿ ¿ 3 3 3 3 ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ 3 3 3 3 ∑ w ’ ’ ’ ’ (tremolo for four bars) œ œ œ œ œ œ œ œ ∑ w Ó Œ x 114 œ œ œ œ œ œ œ œ ‰ jœ x x x
+353,scale_degrees,"3
+3
+3",sus P p f P P ∑ ∑ œ# œ# œ œ œ œ œ# œ œ œ œ ∑ ˙ Œ ‰ ≈œ# œ ’ ’ ’ ’ ˙ Ó ∑ ˙ Ó ˙ ¿¿ ¿¿ ¿¿¿ ¿ ¿¿¿¿ ‰ ≈œœ 3 3 3 ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ Œ 3 3 3 ∑ ˙ ’ ’ ’ ’ œ œ œ œ œ œ œ œ œ œ œ ∑ w ∑ 115 x œ œ œ œ œ œ x x x x P
+353,scale_degrees,"3
+3
+3",œ œ œ œ# œ œ œ œ ∑ ˙ Œ ‰ ≈œ# œ ’ ’ ’ ’ ˙ Ó ∑ ˙ Ó ˙ ¿¿ ¿¿ ¿¿¿ ¿ ¿¿¿¿ ‰ ≈œœ 3 3 3 ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ Œ 3 3 3 ∑ ˙ ’ ’ ’ ’ œ œ œ œ œ œ œ œ œ œ œ ∑ w ∑ 115 x œ œ œ œ œ œ x x x x P ∑ ∑ œ- ‰ Jœ- ˙ ∑ œ- ‰ Jœ-
+353,scale_degrees,"3
+3
+3",∑ ’ ’ ’ ’ ∑ 117 ’ ’ ’ ’ ∑ ∑ ∑ ∑ œ# ‰ Jœ œ ’ ’ ’ .˙# ∑ ∑ ∑ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ ¿ 3 3 3 ∑ œ œ œ ‰ jœ œ Û Û Û‰ J Û ≈ R Û ‰ Û Û Û‰ J Û ≈ R Û ‰ ∑ ’ ’ ’ ∑ 118 Û ‰ J Û Û C#-11 B-11 B-11 p
+358,scale_degrees,"3
+3
+3",Œ œ œ# œ œ œ# œ 3 3 œ œ œ œ œ œ ˙ 3 3 œ œ œ œ œ œ ˙ 3 3 Ó œ œ œ 3 Ó œ œ œ 3 ∑ ∑ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ 142 ’ ’ ’ ’ fill N.C. N.C. f f f f f f f f f f f œ œ œ œ œ œ œ œ ’ ’ ’ ’ (solo) w w w œ œ ‰
+358,scale_degrees,"3
+3
+3
+3",‰ jœ œ œ œ œ œ œ œ œ œ (as written) œ œ œ œ œ œ œ œ (as written) (organ) ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ impro. on chimes & bells 143 x x x x œ œ œ œ œ ‰ Jœ œ œ (open hi hat) ( climax secti
+359,scale_degrees,"3
+3
+3
+3",œ œ œ# 3 w w œ œ ‰ jœ ˙ œœ œ œœœ œ œ œ œ œ œ 3 3 œœ œ œœœ œ œ œ œ œ œ 3 3 ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ 144 x x œæ œæ œ œ œ œ œ Ó ˙ Ó ’ ’ ’ ’ .˙ ‰ ≈œ# œ w w # œœœ ‰ Jœ ‰ Jœ œ .˙ ‰≈œ# œ w w
+359,scale_degrees,"3
+3
+3
+3",w # w w w œœœ ‰ Jœ ‰ Jœ œ œ œ œ œ œ œ œ œ œ œ 3 3 œ œ œ œ œ œ œ œ œ œ 3 3 ∑ œ œ œ œ œ œ œ œ œ œœ œ 3 3 3 3 ’ ’ ’ ’ 145 x x x x œ œœœ œ ‰ Jœ œ œ B@13 ∑ ’ ’ ’ ’ ˙# œ œ œ œ œ œb œ ˙ œ œ œ œ œn œb œn œ#
+359,scale_degrees,"3
+3
+3
+3",œ ‰ Jœ œ Œ œ œ œ ‰ Jœ œ Œ œ œ œ ‰ Jœ œ Œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ œ œ œb 3 3 3 3 ’ ’ ’ ’ 146 ’ ’ x x œ œ œ œ œ Sim. ∑ ’ ’ ’ ’ .˙ ‰ Jœ w Ó Œ ‰ Jœ ’ ’ ’ œb (air noise) ∑ w w w
+360,scale_degrees,"3
+3
+3
+3",˙ œ ‰ Jœ ˙ ∑ œ ‰ Jœ ˙ œ ‰ Jœ ˙ œ ‰ Jœ ˙ ∑ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ 150 x x x x œ œ œœ œ ‰ Jœ œ œ d@9(#11) F@9(#11) f@9(#11) f f f ∑ ’ ’ ’ ’ œ œ# œ œ œ
+360,scale_degrees,"3
+3
+3
+3",n .˙ œ œ .˙ œ œ ∑ .˙ œ œ .˙ œ œ .˙ œ œb ∑ œ œ œ œ œ œ œœœ œ œ œ œ œ œ œœœ ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ 151 ’ ’ x x œ œœœ œ Sim. ∑ ’ ’ ’ ’ w .œ Jœ .œ Jœ .œ Jœ .œ Jœ ∑ w .œ jœ .œ jœ .œ jœ .
+360,scale_degrees,"3
+3
+3
+3",œ .œ J œ .œ Jœ .œ Jœ .œ Jœb .œ Jœ ∑ œb œb œ œ œb œ œ œ œb œ œ œ œb œ œ œ ∑ œb œ œb œ œ œ œ œœ œœ œ 3 3 3 3 ’ ’ ’ ’ 152 ’ ’ ’ ’ c@13 Eb@13 Eb@13 ∑ ’ ’ ’ ’ œ ‰ ≈œb œ œ œ œ 3 œ ‰ ≈œb œn œ œ œn 3 œ ‰ ≈œb
+360,scale_degrees,"3
+3
+3
+3",b œ œ œ œ 3 ∑ ˙ œb œb œb 3 ˙ Ó ˙ Ó ∑ œb œb œ œ œb œ œœ œ œb œ œ œ œb œ œœ œ ∑ œb œ œb œœ œ œœœœ œ œ 3 3 3 3 ’ ’ ’ ’ 153 x x xæ xæ œ œ œœ œ Ó F F > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+361,scale_degrees,"3
+3
+3
+3",w # w œ œ ‰ Jœ ˙ œ œ ‰ Jœ ˙ œ œ ‰ Jœ ˙ ∑ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ 154 x x x x œ œ œ œ œ ‰ Jœ œ œ E@7(#11) G@9(#11) G@9(#11) ∑ ’ ’ ’ ’ w w (vary trill
+361,scale_degrees,"3
+3
+3
+3",eed) w (vary trill speed) w w w w œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ 155 ’ ’ ’ ’ F ∑ ’ ’ ’ ’ .˙ Œ .˙ œ .˙ Œ œ œ œ œ œ œ œ œ .˙ Œ .˙ œ .˙ œ .˙ œ# .˙ œ .˙
+361,scale_degrees,"3
+3
+3
+3",.˙ Œ .˙ œ .˙ œ .˙ œ# .˙ œ .˙ Œ .˙ Œ .˙ Œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ œ œ œ 3 3 3 3 ’ ’ ’ ’ 156 ’ ’ ’ ’ fill f f f f f ∑ .Û J Û .Û ≈Û Û 3 .œ# Jœ .œ ≈œ œ 3 .œ Jœ .œ ≈œ œ 3 .œ Jœ
+363,interval,A7,‰ Jœ ˙ œ ‰ Jœ ˙ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ Jœ ˙ ∑ 165 Û ‰ J Û | A7sus C7sus C7sus w ’ ’ ’ ’ w w w ∑ w ’ ’ ’ ’ w w w w w w ’
+363,interval,d7,’ w w w w w w ’ ’ ’ ’ ’ ’ ’ ’ ∑ ’ ’ ’ ’ ’ ’ ’ ’ 168 ’ ’ ’ ’ d7sus w ’ ’ ’ ’ w ’ ’ ’ ’ w w w ’ ’ ’ ’ w w w w w w ’ ’ ’ ’
+374,interval,A7,Û Û ’ œœœ œœœb œœœb ’ œ œ œb œ œ ˙b ‰ Jœ œ œ œ œ 51 ’ x x œ A7sus G-7 Eb@7 A7sus A7sus ∑ ’ ’ ’ ’ Œ œ œb œn œb œn œ Œ Ó ˙
+374,interval,A7,œœœb ’ œ œ œb œ œ ˙b ‰ Jœ œ œ œ œ 51 ’ x x œ A7sus G-7 Eb@7 A7sus A7sus ∑ ’ ’ ’ ’ Œ œ œb œn œb œn œ Œ Ó ˙ Œ œb ∑ ∑ ∑ ˙ Œ
+374,interval,A7,œ œ œb œ œ ˙b ‰ Jœ œ œ œ œ 51 ’ x x œ A7sus G-7 Eb@7 A7sus A7sus ∑ ’ ’ ’ ’ Œ œ œb œn œb œn œ Œ Ó ˙ Œ œb ∑ ∑ ∑ ˙ Œ œ ∑ ∑
+385,interval,d7,’ ’ ’ ’ ’ ’ ’ ’ w œ œ œ œ œ œ œ œ ’ ’ ’ ’ 117 ’ ’ ’ ’ Fill d7 F F F ÖÜopen ∑ œ œ œ œ œ œ œ œ œ œ# œ œ œ œ œ œ œ œ œ œ ∑
+394,interval,A7,∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ ∑ 174 ’ ’ ’ Fill B7sus A7sus A7sus A7sus   MEKONG (RIVER OF SOULS) 32 378
+394,interval,A7,∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ ∑ 174 ’ ’ ’ Fill B7sus A7sus A7sus A7sus   MEKONG (RIVER OF SOULS) 32 378
+394,interval,A7,’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ ∑ 174 ’ ’ ’ Fill B7sus A7sus A7sus A7sus   MEKONG (RIVER OF SOULS) 32 378
+410,interval,A7,.Û J Û | .Û J Û | ∑ .œ Jœ ˙ .œ Jœ œ œ œ 259 ’ ’ ’ ’ .œ jœ ˙ A7sus GH A7sus GH ˙ ‰ jœ œ œ ˙ Ó Ó ‰ Jœn œ# œ ˙ ‰ jœ œ œ w ∑
+410,interval,A7,.Û J Û | ∑ .œ Jœ ˙ .œ Jœ œ œ œ 259 ’ ’ ’ ’ .œ jœ ˙ A7sus GH A7sus GH ˙ ‰ jœ œ œ ˙ Ó Ó ‰ Jœn œ# œ ˙ ‰ jœ œ œ w ∑ ∑ ∑ w ∑
+413,scale_degrees,"3
+3
+3
+3",w ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ œ œ 3 3 œ œ œ œ œ œ 3 3 ∑ afro cuban pattern 283 x ‰ x ‰ x œ x x œ x œ œ 3 3 3 3 x x x x A7sus/d A7sus/d q=120  (Afro-Cuban) F f > > > > > > > > > > > > > > > > > > > > > >
+413,interval,A7,o cuban pattern 283 x ‰ x ‰ x œ x x œ x œ œ 3 3 3 3 x x x x A7sus/d A7sus/d q=120  (Afro-Cuban) F f > > > > > > > > > >
+413,interval,A7,pattern 283 x ‰ x ‰ x œ x x œ x œ œ 3 3 3 3 x x x x A7sus/d A7sus/d q=120  (Afro-Cuban) F f > > > > > > > > > > > > > >
+414,scale_degrees,"3
+3
+3
+3",w w w œ œ œ œ œ œ 3 3 ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ œ œ 3 3 œ œ œ œ œ œ 3 3 ∑ 284 x ‰ x ‰ x œ x x œ x œ x 3 3 3 3 x x x x F Ó œ œ œ oh my ˙ Ó ˙ œ# œ œ ˙ œ œ œ ˙ wn ˙ ˙ ˙ ˙ ˙ ˙ œ œ œ ˙ œ œ œ œ œ œ 3 3 ’ ’ œ
+415,interval,A7,Û Û Û Û Û ∑ Û Û Û Û Û ’ ’ ’ ’ 294 ’ ’ ’ ’ œ .œ jœ œ F@7 G@9 A7sus Eb@7 F@9 G7sus Eb@7 F@9 G7sus P ˙ ‰ œ œ œ 3 last ti me
+417,interval,A7,J Û | ’ ’ ’ ’ .Û J Û | ’ ’ ’ ’ 307 ’ ’ ’ ’ .œ jœ œ ‰ œ œ 3 A7sus4 B-7 G7sus4 A-7 G7sus4 A-7 - - > > > > > > > > > > > >
+418,scale_degrees,"3
+3
+3",œ œn 3 .˙ ‰ œ œ 3 .˙ ‰ œ œ 3 œ ‰ œ ‰ œ œ œ Œ 3 3 ∑ ∑ ∑ ∑ .˙ ‰ œ œ 3 .˙ Œ .˙ Œ œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ‰ œ œ 3 ’ ’ ’ ‰ œ œ 3 ’ ’ ’ ’ 312 ’ ’ ’ ’ ˙ .œ Jœ must say my ’ ’ ’ ‰ J
+421,scale_degrees,"3
+3
+3",’ ’ ’ ’ ’ ’ ’ .œ jœ ˙ ˙ ˙ 327 ’ ’ ’ ’ F#-7 ∑ ’ ’ ’ ’ (solo) ’ ’ ’ ’ (solo) w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w w ∑ w w ∑ ∑ œb ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ’ ’ ’ ’ (distort. solo) ’ ’ ’ ’ ’ ’ ’ ’ ∑ ’ ’ ’ ’ (b
+421,scale_degrees,"3
+3
+3",∑ ’ ’ ’ ’ (solo) ’ ’ ’ ’ (solo) w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w w ∑ w w ∑ ∑ œb ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ’ ’ ’ ’ (distort. solo) ’ ’ ’ ’ ’ ’ ’ ’ ∑ ’ ’ ’ ’ (back to congas) 328 ’ ’ ’ ’ (two bar fill)
+421,scale_degrees,"3
+3
+3",’ ’ ’ ’ ’ ’ ’ ’ ’ ’ Ó Œ ‰ Jœ ’ ’ ’ ’ 329 ’ ’ ’ ’ f ƒ ˙ œ œ œ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰
+421,scale_degrees,"3
+3
+3",’ ’ 329 ’ ’ ’ ’ f ƒ ˙ œ œ œ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ œ ’
+421,scale_degrees,"3
+3
+3",’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3
+421,scale_degrees,"3
+3
+3",œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ œ ’ ’ ’ ’
+421,scale_degrees,"3
+3
+3",‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ œ ’ ’ ’ ’ 330 ’ ’ ’ ’ D7sus4 A7sus4
+421,scale_degrees,"3
+3
+3",œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ œ ’ ’ ’ ’ 330 ’ ’ ’ ’ D7sus4 A7sus4 C7sus4 C7sus4 f f f f ˙ ˙ ’ ’ ’ ’ ’ ’ ’ ’ ∑
+421,scale_degrees,"3
+3
+3",’ ’ ’ ’ 330 ’ ’ ’ ’ D7sus4 A7sus4 C7sus4 C7sus4 f f f f ˙ ˙ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰
+421,scale_degrees,"3
+3
+3",4 C7sus4 C7sus4 f f f f ˙ ˙ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ ˙ ’ ’ ’
+421,scale_degrees,"3
+3
+3",’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3
+421,scale_degrees,"3
+3
+3",œ ‰ ‰ jœ 3 3 3 ∑ w w œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ ˙ ’ ’ ’ ’ 331 ’ ’
+421,scale_degrees,"3
+3
+3",‰ œ œ œ ‰ ‰ jœ 3 3 3 w œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ ˙ ’ ’ ’ ’ 331 ’ ’ ’ ’ ~~~ ~~~~~~~ ~~~~~~~~~
+421,scale_degrees,"3
+3
+3",‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ ˙ ’ ’ ’ ’ 331 ’ ’ ’ ’ ~~~ ~~~~~~~ ~~~~~~~~~ ~~~~~~~~ > > > > > > > > > > > > > > > >
+421,interval,A7,Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ œ ’ ’ ’ ’ 330 ’ ’ ’ ’ D7sus4 A7sus4 C7sus4 C7sus4 f f f f ˙ ˙ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ
+422,scale_degrees,"3
+3
+3",bn. 1 Tbn. 2 Tbn. 3 B. Tbn. Gtr. E.B. Perc. D. S. Pno. ˙ œ œ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ∑ ∑ œn ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰
+422,scale_degrees,"3
+3
+3",E.B. Perc. D. S. Pno. ˙ œ œ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ∑ ∑ œn ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ
+422,scale_degrees,"3
+3
+3",œ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ∑ ∑ œn ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ
+422,scale_degrees,"3
+3
+3",œ œ œ ‰ ‰ Jœ 3 3 3 ∑ ∑ œn ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ ’ ’ ’
+422,scale_degrees,"3
+3
+3",œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3
+422,scale_degrees,"3
+3
+3",œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ ’ ’ ’ ’ 332
+422,scale_degrees,"3
+3
+3",œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ ’ ’ ’ ’ 332 ’ ’ ’ ’ E-11/d B-11/a D-11
+422,scale_degrees,"3
+3
+3",J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ˙ œ œ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ ˙ œ œ ’ ’ ’ ’ 332 ’ ’ ’ ’ E-11/d B-11/a D-11/c D-11/c ƒ ƒ ƒ ƒ ƒ ƒ ƒ œ œ œ ˙ ’ ’ ’ ’ ’
+422,scale_degrees,"3
+3
+3",332 ’ ’ ’ ’ E-11/d B-11/a D-11/c D-11/c ƒ ƒ ƒ ƒ ƒ ƒ ƒ œ œ œ ˙ ’ ’ ’ ’ ’ ’ ’ ’ œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ∑ œ ‰ œ ‰ œ œ œ ‰ œ œ# 3 3 œn ‰ œ ‰ œ œ œ ‰ œ œn 3 3 œ ‰ œ ‰ œ œ œ
+422,scale_degrees,"3
+3
+3",D-11/c D-11/c ƒ ƒ ƒ ƒ ƒ ƒ ƒ œ œ œ ˙ ’ ’ ’ ’ ’ ’ ’ ’ œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ∑ œ ‰ œ ‰ œ œ œ ‰ œ œ# 3 3 œn ‰ œ ‰ œ œ œ ‰ œ œn 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ
+422,scale_degrees,"3
+3
+3",‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 ∑ œ ‰ œ ‰ œ œ œ ‰ œ œ# 3 3 œn ‰ œ ‰ œ œ œ ‰ œ œn 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ
+422,scale_degrees,"3
+3
+3",œ ‰ œ ‰ œ œ œ ‰ œ œ# 3 3 œn ‰ œ ‰ œ œ œ ‰ œ œn 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ œ œ ˙ ’ ’
+422,scale_degrees,"3
+3
+3",‰ œ ‰ œ œ œ ‰ œ œn 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ œ œ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3
+422,scale_degrees,"3
+3
+3",œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ œ œ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ œ œ œ ˙ ’ ’ ’ ’
+422,scale_degrees,"3
+3
+3",œ ‰ œ œ œ ‰ ‰ jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ J œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ œ œ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ œ œ œ ˙ ’ ’ ’ ’ 333 ’ ’ ’ ’ ƒ ƒ ˙ ˙ ’ ’ ’
+422,scale_degrees,"3
+3
+3",œ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ ‰ œ ‰ œ œ œ ‰ ‰ Jœ 3 3 3 œ œ œ ˙ ’ ’ ’ ’ Û ‰ Û ‰ Û Û Û ‰ ‰ J Û 3 3 3 ’ ’ ’ ’ œ œ œ ˙ ’ ’ ’ ’ 333 ’ ’ ’ ’ ƒ ƒ ˙ ˙ ’ ’ ’ ’ ’ ’ ’ ’ œ ‰ œ ‰ œ œ ˙ 3 3 œ ‰ œ ‰ œ# œ ˙ 3
+484,scale_degrees,"3
+3
+3",œ œb œ œ œ œ @ ’ ’ ’ ’ ∑ ˙ œ œ œ 16 ’ ’ ’ ’ bbH ∑ Ó œ œ œ œ 3 œ œ œ œ œ œ ˙ 3 3 œ œ œ œ œ œ œ œ œ œ 3 3 3 wn ˙ œ œ œ œ ’ ’ ’ ’ Ó œ œ œ œ œ œ 3 3 ∑ ∑ ∑ ∑ ∑ ∑ œ œ œ œ œ œ œ œ ’ ’ ’ ’ ∑ .œ œb œ œ œ œ œ 1
+485,interval,A1,. ∑ œ œ ‰ Jœ ‰ Jœ ‰ Jœ 20 x x x x x x x x x x x x œx b13sus A13sus ∑ ∑ Ó œ œ œ# œ œ œ œ œ œ# œ œ œ œ œ œ œ ˙ w ∑ ’ ’ ’ ’
+485,interval,A1,œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ 7 21 x x x x x x x x x x œx œx A13sus Ó ‰ jœ œ œ with cl. ∑ œ œ œ œ ˙ Œ ∑ to soprano sax Ó
+488,interval,A7,’ ’ ’ ∑ œb œb œb œb œ œ œ œ œn œn 3 36 ’ ’ ’ ’ (sim.) Bb-11 A7sus4 Bb-11 A7sus4 P œ œb œ œb œ œ œb œ œb œ œ œn œ œn œ ∑
+488,interval,A7,œb œb œ œ œ œ œn œn 3 36 ’ ’ ’ ’ (sim.) Bb-11 A7sus4 Bb-11 A7sus4 P œ œb œ œb œ œ œb œ œb œ œ œn œ œn œ ∑ œ œb œ œn œ œ
+489,scale_degrees,"3
+3
+3",‰ to alto sax. œ œ œ œ œ .œ œn œ œ œn œ œ œ .œ œn œ ‰ Jœ œ œ œ ˙ (tenor sax) ‰ jœ œ œœ œn œ œœœœ œ 3 3 3 œ œ œ œ œ ˙ ’ ’ ’ ’ ’ ∑ ‰ jœ œ œ œ ˙ œ œb œ œ œ ˙ ‰ Jœb œ œ œ ˙ ‰ Jœ œ œ œ ˙ ∑ œ œœ 3 œb œb œ
+489,scale_degrees,"3
+3
+3",œ œ ˙ œ œb œ œ œ ˙ ‰ Jœb œ œ œ ˙ ‰ Jœ œ œ œ ˙ ∑ œ œœ 3 œb œb œ æ œ œ ˙ ’ ’ ’ ’ ’ œ œ œœ œb œ œœœœ œ 3 3 3 œ œ œœ œb œ œœœœ œ 3 3 3 42 x x x œx x x œ x x x x x 3 3 3 x Œ œ Ó G7sus F7sus4 P P P P P P F
+489,scale_degrees,"3
+3
+3",œ œ œ ˙ ‰ Jœ œ œ œ ˙ ∑ œ œœ 3 œb œb œ æ œ œ ˙ ’ ’ ’ ’ ’ œ œ œœ œb œ œœœœ œ 3 3 3 œ œ œœ œb œ œœœœ œ 3 3 3 42 x x x œx x x œ x x x x x 3 3 3 x Œ œ Ó G7sus F7sus4 P P P P P P F F > > > > > > > > > > > >
+489,scale_degrees,"3
+3
+3",b œ æ œ œ ˙ ’ ’ ’ ’ ’ œ œ œœ œb œ œœœœ œ 3 3 3 œ œ œœ œb œ œœœœ œ 3 3 3 42 x x x œx x x œ x x x x x 3 3 3 x Œ œ Ó G7sus F7sus4 P P P P P P F F > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+490,scale_degrees,"3
+3
+3",utt.) Œ ˙ ’ ’ ’ ( ab lib solo) .œ .œ ∑ .˙ ∑ ∑ .˙ slow gliss. Œ ˙ slow gliss. ∑ .˙ œ œ œ œ œ œ œ œ œ 3 3 3  volume swell+delay ∑ (organ) œ œ œ œ œ œ œ œ œ 3 3 3 .œ .œ 47 xœ xœ x xxxx .œ œ ‰ œ œ F#-11 P
+490,scale_degrees,"3
+3
+3",gliss. Œ ˙ slow gliss. ∑ .˙ œ œ œ œ œ œ œ œ œ 3 3 3  volume swell+delay ∑ (organ) œ œ œ œ œ œ œ œ œ 3 3 3 .œ .œ 47 xœ xœ x xxxx .œ œ ‰ œ œ F#-11 P {D} P p p P P > > > > > > > > > > > > > > > > > > > >
+490,interval,A7,J Û ‰ J Û Û 43 xœ xœ ‰ J xœ ‰ J xœ œ œ F7sus4 G7sus4 Ab7sus A7sus F7sus4 G7sus4 Ab7sus a7sus F7sus4 G7sus4 Ab7sus a7sus
+491,scale_degrees,"3
+3
+3
+3",3 Ó œ G@9 abH P P ÖpluÜnger F F F F ∑ ∑ ∑ .œ œ œn œ œ œ œ œn .œ ’ ’ ’ ’ œn œn œn œ œ œ œ œ œ œ œ œn 3 3 3 3 .œ œ œ œ œ œ œ œ .œ .œ œ œ œ œ œ œ œ .œ ∑ ∑ ∑ ∑ ∑ ∑ œb œb œb œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ œb
+491,scale_degrees,"3
+3
+3
+3",œ œ œ œ œ œn 3 3 3 3 .œ œ œ œ œ œ œ œ .œ .œ œ œ œ œ œ œ œ .œ ∑ ∑ ∑ ∑ ∑ ∑ œb œb œb œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ œb œb œb œ œ œ œ œ œ œ œ œ 3 3 3 3 œb œ œb œ œ œ œ 49 ’ ’ ’ ’ double time feel FH ∑ œ œ œ
+491,scale_degrees,"3
+3
+3
+3",.œ .œ œ œ œ œ œ œ œ .œ ∑ ∑ ∑ ∑ ∑ ∑ œb œb œb œ œ œ œ œ œ œ œ œ 3 3 3 3 ∑ œb œb œb œ œ œ œ œ œ œ œ œ 3 3 3 3 œb œ œb œ œ œ œ 49 ’ ’ ’ ’ double time feel FH ∑ œ œ œ œ œ œ œ œ œ œ .˙ ’ ’ ’ .˙ .˙ .˙ ∑ ∑ .
+491,scale_degrees,"3
+3
+3",double time feel FH ∑ œ œ œ œ œ œ œ œ œ œ .˙ ’ ’ ’ .˙ .˙ .˙ ∑ ∑ .˙ .˙ ∑ œ œ œ œ 4 œ œ œ œ œ œ œ œ œ 3 3 3 ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ 4 50 ’ ’ ’ DH p p ∑ œ .œ œ œ œ œ œ@ 3 .˙@ Œ Ó Œ œ œ œ ’ ’ ’
+491,scale_degrees,"3
+3
+3",œ œ œ œ œ œ œ œ .˙ ’ ’ ’ .˙ .˙ .˙ ∑ ∑ .˙ .˙ ∑ œ œ œ œ 4 œ œ œ œ œ œ œ œ œ 3 3 3 ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ 4 50 ’ ’ ’ DH p p ∑ œ .œ œ œ œ œ œ@ 3 .˙@ Œ Ó Œ œ œ œ ’ ’ ’ ’ ∑ ∑ Ó Œ œ# œ œ ∑ ∑ ˙ ˙ ˙
+491,scale_degrees,"3
+3
+3",œ 3 3 œ œ œ œ œ œb œ œ œ œ œ œ œ œ œ 3 Ó Œ Û œ œ œ œ œ œb œ œ œ œ œ œ œ œ œ 3 œ œ œ œ œ œ œb œ œ œ 3 3 3 51 xœ x x xœ xœ x xœ xœ x x 3 3 3 œ Œ Œ back to half time B-7 A-11 P P ÖÜopen   WIANG HAENG (T
+491,scale_degrees,"3
+3
+3",œ œ 3 Ó Œ Û œ œ œ œ œ œb œ œ œ œ œ œ œ œ œ 3 œ œ œ œ œ œ œb œ œ œ 3 3 3 51 xœ x x xœ xœ x xœ xœ x x 3 3 3 œ Œ Œ back to half time B-7 A-11 P P ÖÜopen   WIANG HAENG (THE NORTHERN RHAPSODY)   11 475
+492,scale_degrees,"3
+3
+3",œ œ œ œ œ œ 3 3 œ œ œ œ œ œb 3 3 52 ’ ’ ’ ’ cH BbH ∑ œ œ œ œ ∑ œ œ œ œ œ ’ ’ ’ œn œ œn œ œ œ œ œ œ 3 3 3 Œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ œ œ
+492,scale_degrees,"3
+3
+3",H BbH ∑ œ œ œ œ ∑ œ œ œ œ œ ’ ’ ’ œn œ œn œ œ œ œ œ œ 3 3 3 Œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 53
+492,scale_degrees,"3
+3
+3",œ œn œ œ œ œ œ œ 3 3 3 Œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 53 xœ x x xœ xœ x xœ xœ x 3 3 3 œ Œ GH
+492,scale_degrees,"3
+3
+3",Œ œ œ œ œ œ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 ∑ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 53 xœ x x xœ xœ x xœ xœ x 3 3 3 œ Œ GH FH P f ∑ œ œn œn œb œ Œ
+492,scale_degrees,"3
+3
+3",œ œ œ œ 3 3 3 ∑ œ œ œ œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 53 xœ x x xœ xœ x xœ xœ x 3 3 3 œ Œ GH FH P f ∑ œ œn œn œb œ Œ œb œn œb œ œ œb œn œb œ œb œb ’
+492,scale_degrees,"3
+3
+3",œ œ œ œ œ œ 3 3 3 œ œ œ œ œ œ œ œ œ 3 3 3 ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 53 xœ x x xœ xœ x xœ xœ x 3 3 3 œ Œ GH FH P f ∑ œ œn œn œb œ Œ œb œn œb œ œ œb œn œb œ œb œb ’ ’ ’ œ œn œ œb œ œb œb œ œ œ œb
+492,scale_degrees,"3
+3
+3",3 3 œ Œ ∑ œ œb œb œb œ ∑ .˙ œ œ œ œb œb œb œb 3 3 ’ ’ ’ ∑ œ œb œb œb œb 3 54 xœ x x xœ xœ x xœ xœ x 3 3 3 œ Œ gbH ∑ œ œ ‰ Jœ ‰ Jœ œ œ ‰ Jœ ‰ Jœ œ# œ ‰ Jœ ‰ Jœ œ œ ‰ Jœn ‰ Jœb (end solo) Œ œn œ œn œ œ
+492,scale_degrees,"3
+3
+3",œ œ ‰ Jœb ‰ Jœ œ# œ ‰ Jœ ‰ Jœ œ œ ‰ Jœb ‰ jœ ∑ Û Û ‰ J Û ‰ J Û (synth. pad) ∑ œ œ# œ œb œ œb œ œ œn 3 3 3 55 xœ xœ ‰ J xœ ‰ J xœ DH EbH G@9 (#11) f f f f f f f f f f f P F Ó Œ œ œ œ 3 w w w w w w w w
+494,interval,A1,ax) ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ .Û Û Û Û Û Û .œ œ œ œ œ œ ∑ ∑ 64 ∑ DH A13sus E9sus DH A13sus E9sus F œ œ œ œ œ œ œ ∑ ∑ ∑ œ œ œ œ œ
+494,interval,A1,∑ ∑ ∑ .Û Û Û Û Û Û .œ œ œ œ œ œ ∑ ∑ 64 ∑ DH A13sus E9sus DH A13sus E9sus F œ œ œ œ œ œ œ ∑ ∑ ∑ œ œ œ œ œ œ œ ∑ ∑ ∑ ∑ ∑ ∑
+495,interval,A1,∑ ∑ ∑ ∑ ∑ ∑ Û Û Û Û Û Û Û Û œ œ œ œ œ œ œ œ ∑ ∑ 67 ∑ E9sus A13sus E9sus A13sus œ œ œ œ œ œ œ ∑ ∑ ∑ œ œ œ .œ œœœ œ ∑ ∑ ∑
+495,interval,A1,Û Û Û Û Û Û Û Û œ œ œ œ œ œ œ œ ∑ ∑ 67 ∑ E9sus A13sus E9sus A13sus œ œ œ œ œ œ œ ∑ ∑ ∑ œ œ œ .œ œœœ œ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑
+498,scale_degrees,"3
+3
+3",œ œ œ œ œ œ ∑ œb œ œ ‰ J œ ‰ J œ œ œb œ œ ‰ Jœ ‰ J œ œ œ œ œ ‰ J œ ‰ Jœb œ Œ œb œb œb œ œ œb œ œb œ 3 3 3 œb œb œ œb ≈ œ œ œ ‰ J Û Û œb œb œ œb ≈ œ œ œ ‰ J Û Û ∑ œb œb œb œb œ œ œ œn œb œ œb œ 3 3 3 3
+498,scale_degrees,"3
+3
+3
+3",œ œb œ 3 3 3 œb œb œ œb ≈ œ œ œ ‰ J Û Û œb œb œ œb ≈ œ œ œ ‰ J Û Û ∑ œb œb œb œb œ œ œ œn œb œ œb œ 3 3 3 3 81 .Û Û ‰ J Û ‰ J Û Û Eb/Db Eb/Db f ∑ ∑ .˙ .˙ .˙ .˙ .˙ .˙ .˙ ∑ .˙ .˙ .˙ .˙ ∑ ∑ ∑ œb œb œb œb
+498,scale_degrees,"3
+3
+3",.Û Û ‰ J Û ‰ J Û Û Eb/Db Eb/Db f ∑ ∑ .˙ .˙ .˙ .˙ .˙ .˙ .˙ ∑ .˙ .˙ .˙ .˙ ∑ ∑ ∑ œb œb œb œb œ œ œ œ œ 3 3 3 82 xæ œ œ œ œ x x œ Œ Œ ( as written) ∑ ∑ œfast gliss. ˙ œ ˙ ˙ fast gliss. ˙ ‰ ≈œ# œ ˙fast gli
+498,scale_degrees,"3
+3
+3",ss. ˙ œ ˙ ˙ fast gliss. ˙ ‰ ≈œ# œ ˙fast gliss Ó ‰ ≈œ œ ˙ ‰ ≈œ œ ˙ Œ ˙ ˙ ∑ ∑ ∑ œb œb œb œb œ œ œ œ œ 3 3 3 83 xæ œ œ œ œ œ œ œ x œ Œ f f ÖhaÜrmon f ~~~~~~~~~~~ ~~~~~~~~~~ ~~~~~~~~~~~~~~ > > > > >   WIA
+500,scale_degrees,"3
+3
+3",Csus7 Bbsus7 Bbsus7 Bbsus7 ∑ Û Û Û Û œ œ œ œ ∑ Œ Œ œn œ Ó œ - œ œ œ œ - œ œb œ ∑ œ œ œ œ œ œ œ œ œ 3 3 3 œ- œ œb œ Û Û Û Û œ œ œ œ œ œ œ œ Û Û Û Û Û Û Û Û ∑ œ œb œ œ œ œ œ 3 3 89 Û Û Û Û GH C◊ FH Bb◊
+500,scale_degrees,"3
+3
+3",Û Û Û Û œ œ .œ œn œ œ œ œ Œ œ œn œ œ œn œ œ 3 œ œ œ œ ≈ œ œ œ œ œ œ œ œ œ 3 3 œ œ œ œ œn œ œ œ œ œ 3 3 3 œ œ œb œ œ œ œ# 3 œ œ œ œ œ- œ œ œb œ œ œ œ# 3 œ œ œ œ œ œ œ œ œ œ- 3 3 3 œ œ œb œ œ œ œ 3 Û Û
+500,scale_degrees,"3
+3
+3",3 3 œ œ œ œ œn œ œ œ œ œ 3 3 3 œ œ œb œ œ œ œ# 3 œ œ œ œ œ- œ œ œb œ œ œ œ# 3 œ œ œ œ œ œ œ œ œ œ- 3 3 3 œ œ œb œ œ œ œ 3 Û Û Û Û Û œb œ œb œ œ- œ œ .œ œb œ œ œ œ œ œ œ œ ≈œ œ œ œb œb œ œn œ œ œn œ œ
+500,scale_degrees,"3
+3
+3
+3",œ œ œ œ œ œ œ ≈œ œ œ œb œb œ œn œ œ œn œ œ œ œ ≈œ œ œ œb œb œ œn œ œ œn ∑ œ œ œ œ œb œ œ œ œ œ œ œ 3 3 3 3 90 Û Û Û Û Û A-11 C-7 DH G-11 Bb-7 CH F f f f f ƒ f f ∑ Û Û ‰ J Û Û œ œ œ œ ≈œ œ œ œ œ œ œ œ
+502,interval,A7,œ œ œ œ œ œ œ œ œ Jœ 98 ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ (sim.) B7sus4 A7sus4 P {H} F F Öcup Öto h^a^r^m^on Öto c^up ∑ ’ ’ ’ ’ ’ ’
+503,interval,A7,’ ’ ’ ’ ’ ∑ .œ œ œ œ œ œ œ œ œ Jœ 100 ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ A7sus4 G7sus4 p P œ œ œ œ ‰ Jœ œ œ jœ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’
+503,interval,A7,’ ∑ .œ œ œ œ œ œ œ œ œ Jœ 101 ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ B7sus4 A7sus4 p .œ œ œ œ œ œb œ œ œ jœ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ œ
+503,interval,A7,o) ∑ .œ œ œ œ œ œ œ œ œ Jœ 102 ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ (fill) A7sus4 G7sus4 P ’ ’ ’ ’ (ad lib solo w./alto sax ) ’ ’ ’ ’ (
+516,interval,A7,’ ’ ’ ’ ’ ’ ∑ œ œ œ œ œ œ œ œ œ ’ ’ ’ ’ ’ ’ 43 ’ ’ ’ ’ ’ xœ A7sus4 G7sus4 f f f f f f F ’ ’ ’ ’ ’ ’ .˙ .˙ ∑ œ ‰ Jœ œ œ ‰
+535,scale_degrees,"3
+3
+3",.˙n .˙ ∑ ∑ .˙ .˙ Œ œ œn œ œ œ œ œ ˙˙˙n ‰J œœœ œœœ ‰J œœœ œœœ œœœ œ œn œ œ œ œ œ œ œ œ œœ œ œ œ œ œ 3 3 3 142 ’ ’ ’ ’ ’ ’ F ∑ Ó Œ .œ Jœn œ œ .˙ .œn Jœ# œ œ Ó Œ .œ Jœ œ œ (tenor sax) .˙ Ó Œ œn œn œ œ œ
+544,interval,A7,œ œ œ œ œ œœœ Û Û Û Û Û .| - 189 x x x x œ œ œ œ œ œ .˙ .˙ A7sus A7sus G7sus f f f f f f ∑ ’ ’ ’ ’ ’ ’ œn œn œn œn œn œ
+544,interval,A7,œ œ œœœ Û Û Û Û Û .| - 189 x x x x œ œ œ œ œ œ .˙ .˙ A7sus A7sus G7sus f f f f f f ∑ ’ ’ ’ ’ ’ ’ œn œn œn œn œn œ œ ˙ œ
+546,interval,A7,’ ’ ’ ’ ’ ’ ∑ œn ‰ Jœn ‰ Jœ œ œn œ ∑ 202 ’ ’ ’ ’ ’ ’ B7sus A7sus A7sus F F   DANCE OF KINNARI (SINGORA) 41 530
+546,interval,A7,’ ’ ’ ∑ œn ‰ Jœn ‰ Jœ œ œn œ ∑ 202 ’ ’ ’ ’ ’ ’ B7sus A7sus A7sus F F   DANCE OF KINNARI (SINGORA) 41 530
+547,interval,A7,’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ∑ œ ‰ Jœ ‰ Jœ œ œ œ ∑ 203 ’ ’ ’ ’ ’ ’ A7sus G7sus G7sus P P ∑ ’ ’ ’ ’ ’ ’ end solo ∑ ∑ ∑ œ# ‰ Jœ ‰
+616,scale_degrees,"3
+3
+3",o fast) ’ ’ ’ ’ ’ ’ ’ 2 ’ ’ ’ ’ ’ ’ ’ 2 2 P f f P p f 2 œœ œ # w./ flutter tongue ¿ ¿ ¿ ¿ ¿ ¿ ‰ ¿ ¿ 3 3 3 slap tongue ’ ’ ’ ’ air sound (vary speed) ’ ’ ’ ’ 3 ’ ’ ’ ’ 3 f 3 3 4 ¿ ¿ ¿ ¿ ¿ ¿ ‰ ¿ ¿ 3 3 3
+616,scale_degrees,"3
+3
+4",ter tongue ¿ ¿ ¿ ¿ ¿ ¿ ‰ ¿ ¿ 3 3 3 slap tongue ’ ’ ’ ’ air sound (vary speed) ’ ’ ’ ’ 3 ’ ’ ’ ’ 3 f 3 3 4 ¿ ¿ ¿ ¿ ¿ ¿ ‰ ¿ ¿ 3 3 3 œ æ( œ æ œ# æ œ# æ ) flutter tongue œ œ œb lip trill & scream (multiph
+616,scale_degrees,"3
+3
+3",¿ ¿ 3 3 3 slap tongue ’ ’ ’ ’ air sound (vary speed) ’ ’ ’ ’ 3 ’ ’ ’ ’ 3 f 3 3 4 ¿ ¿ ¿ ¿ ¿ ¿ ‰ ¿ ¿ 3 3 3 œ æ( œ æ œ# æ œ# æ ) flutter tongue œ œ œb lip trill & scream (multiphonics may apply) ’ ’ ’ ’
+625,interval,A7,œ ∑ 53 x x x x x x x x œ œ œ œ œ œ œ œ BbH B7sus D7sus AbH A7sus C7sus AbH A7sus C7sus œ œ œ œ ‰ Jœ œ œ œ œ œ œ# œ œ Û
+625,interval,A7,x x x x œ œ œ œ œ œ œ œ BbH B7sus D7sus AbH A7sus C7sus AbH A7sus C7sus œ œ œ œ ‰ Jœ œ œ œ œ œ œ# œ œ Û Û Û Û ‰ jœ œ œ œ
+625,interval,A7,œ ’ ’ ’ œ œ œ œ ∑ 54 x x x œ x x œ œ œ œ œ F#-11 B7sus E-11 A7sus E-11 A7sus > > > > > > > > > > >   EPILOGUE (PATCHIM)
+625,interval,A7,œ œ ∑ 54 x x x œ x x œ œ œ œ œ F#-11 B7sus E-11 A7sus E-11 A7sus > > > > > > > > > > >   EPILOGUE (PATCHIM)   12 609
+628,interval,A6,Û Û Û Û ’ ’ œ œ œ œ œ œ œ œ œ œ œ œ 66 x x jx x jx œ ‰ Jœ œ A6 G6 G6 w Œ œ œ œ œ œ œ ˙ œ œ œ œ œ œ ˙ œ œ œ œ œ œ œ œ œ œ
+638,interval,A7,œ œ œ œ œ œ œ œ œ œ œ œ œ œ œ 120 x x x x x x x x x x .˙ ˙ A7sus D7sus A7sus D7sus A7sus d7sus A7sus d7sus f F P f f f
+638,interval,A7,œ œ œ œ œ œ œ œ œ 120 x x x x x x x x x x .˙ ˙ A7sus D7sus A7sus D7sus A7sus d7sus A7sus d7sus f F P f f f f {G} f   EP
+638,interval,A7,œ œ œ 120 x x x x x x x x x x .˙ ˙ A7sus D7sus A7sus D7sus A7sus d7sus A7sus d7sus f F P f f f f {G} f   EPILOGUE (PATC
+638,interval,d7,120 x x x x x x x x x x .˙ ˙ A7sus D7sus A7sus D7sus A7sus d7sus A7sus d7sus f F P f f f f {G} f   EPILOGUE (PATCHIM)
+638,interval,A7,x x x x x x x x x .˙ ˙ A7sus D7sus A7sus D7sus A7sus d7sus A7sus d7sus f F P f f f f {G} f   EPILOGUE (PATCHIM)   25 62
+638,interval,d7,x x x x x x .˙ ˙ A7sus D7sus A7sus D7sus A7sus d7sus A7sus d7sus f F P f f f f {G} f   EPILOGUE (PATCHIM)   25 622
+639,interval,A7,œ œ œ œ œ œ œ œ œ œ œ œ œ œ 121 x x x x x x œ œ œ œ œ œ œ œ A7sus D7sus A7sus D7sus A7sus D7sus A7sus D7sus F F ÖÜopen œ
+639,interval,A7,œ œ œ œ œ œ œ œ 121 x x x x x x œ œ œ œ œ œ œ œ A7sus D7sus A7sus D7sus A7sus D7sus A7sus D7sus F F ÖÜopen œ œ œ œ œ œ œ
+639,interval,A7,œ œ 121 x x x x x x œ œ œ œ œ œ œ œ A7sus D7sus A7sus D7sus A7sus D7sus A7sus D7sus F F ÖÜopen œ œ œ œ œ œ œ# œ œ# œ œ œ
+639,interval,A7,x x x x œ œ œ œ œ œ œ œ A7sus D7sus A7sus D7sus A7sus D7sus A7sus D7sus F F ÖÜopen œ œ œ œ œ œ œ# œ œ# œ œ œ œ œ œ œ œ œ
+645,interval,A1,∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ ∑ 159 ’ ’ ’ ’ A13sus A13sus A13sus ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’
+645,interval,A1,∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ ∑ 159 ’ ’ ’ ’ A13sus A13sus A13sus ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’
+645,interval,A1,’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ ∑ 159 ’ ’ ’ ’ A13sus A13sus A13sus ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ
+656,interval,A7,∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ œ œ œ œ 223 ’ ’ ’ ’ B7sus A7sus A7sus A7sus ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’
+656,interval,A7,’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ œ œ œ œ 223 ’ ’ ’ ’ B7sus A7sus A7sus A7sus ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’
+656,interval,A7,’ ’ ’ ’ ’ ’ ’ œ œ œ œ œ œ œ œ 223 ’ ’ ’ ’ B7sus A7sus A7sus A7sus ∑ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ∑ ∑ ∑ ∑ ∑ ∑ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’
+665,interval,A1,œ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ ˙ ˙ 279 ’ ’ xœ xœ B13sus A13sus A13sus A13sus f f f f f f f ∑ ˙ œ œ (legato) Œ œ Œ œ
+665,interval,A1,’ ’ ’ ’ ’ ’ ’ ’ ’ ’ œ œ œ œ ˙ ˙ 279 ’ ’ xœ xœ B13sus A13sus A13sus A13sus f f f f f f f ∑ ˙ œ œ (legato) Œ œ Œ œ ˙ œ œ (
+665,interval,A1,’ ’ ’ ’ ’ ’ œ œ œ œ ˙ ˙ 279 ’ ’ xœ xœ B13sus A13sus A13sus A13sus f f f f f f f ∑ ˙ œ œ (legato) Œ œ Œ œ ˙ œ œ (legato)

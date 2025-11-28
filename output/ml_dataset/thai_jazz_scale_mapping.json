@@ -1,0 +1,37 @@
+[
+  {
+    "thai_scale":"Lai Yai (ลายใหญ่)",
+    "pitches":"A, C, D, E, G",
+    "jazz_equivalent":"A minor pentatonic",
+    "compatible_chords":"Am7, Dm7, Em7(b5), Fmaj7, G7sus4",
+    "application":"Modal jazz, bass improvisation"
+  },
+  {
+    "thai_scale":"Lai Noi (ลายน้อย)",
+    "pitches":"D, F, G, A, C",
+    "jazz_equivalent":"D minor pentatonic",
+    "compatible_chords":"Dm7, Gm7, Am7(b5), Bbmaj7, C7sus4",
+    "application":"Reharmonization, Dorian mode"
+  },
+  {
+    "thai_scale":"Lai Se (ลายเส)",
+    "pitches":"E, G, A, B, D",
+    "jazz_equivalent":"E minor pentatonic",
+    "compatible_chords":"Em7, Am7, Bm7(b5), Cmaj7, D7sus4",
+    "application":"Khaen improvisation style"
+  },
+  {
+    "thai_scale":"Lai Sutsanaen (ลายสุดสะแนน)",
+    "pitches":"C, D, E, G, A",
+    "jazz_equivalent":"C major pentatonic",
+    "compatible_chords":"Cmaj7, Dm7, Em7, Am7, G7sus4",
+    "application":"Major tonality, bright sound"
+  },
+  {
+    "thai_scale":"Nora Scale",
+    "pitches":"C, D, E, G (with G as marker)",
+    "jazz_equivalent":"C major pentatonic subset",
+    "compatible_chords":"Cmaj7, G7sus4, Am7",
+    "application":"Southern Thai melodic style"
+  }
+]

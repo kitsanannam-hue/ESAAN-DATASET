@@ -1,0 +1,167 @@
+{
+  "version": "2.0",
+  "name": "Thai-Jazz Cross-Cultural ML Dataset",
+  "description": "Comprehensive ML dataset for Thai-Jazz fusion analysis",
+  "audio_features": {
+    "spectral": {
+      "mfcc": {
+        "description": "Mel-frequency cepstral coefficients",
+        "dimensions": 13,
+        "use_case": "Timbre analysis, instrument identification"
+      },
+      "spectral_centroid": {
+        "description": "Center of mass of spectrum",
+        "use_case": "Brightness, ranad ek vs vibraphone distinction"
+      },
+      "spectral_bandwidth": {
+        "description": "Spread of spectrum",
+        "use_case": "Harmonic richness, drone detection"
+      },
+      "chroma": {
+        "description": "Pitch class energy distribution",
+        "dimensions": 12,
+        "use_case": "Pentatonic scale detection, lai identification"
+      }
+    },
+    "temporal": {
+      "tempo": {
+        "description": "Beats per minute",
+        "use_case": "Chan (sam/song/dio) classification"
+      },
+      "beat_frames": {
+        "description": "Beat positions",
+        "use_case": "Nathap pattern analysis"
+      },
+      "onset_strength": {
+        "description": "Note onset detection",
+        "use_case": "Upbeat accent detection, swing feel"
+      }
+    },
+    "harmonic": {
+      "fundamental_frequency": {
+        "description": "F0 estimation",
+        "use_case": "Melody extraction, lai pattern recognition"
+      },
+      "harmonic_ratio": {
+        "description": "Harmonic to noise ratio",
+        "use_case": "Khaen drone vs melody separation"
+      }
+    },
+    "thai_specific": {
+      "pentatonic_detection": {
+        "description": "Detect pentatonic scale usage",
+        "techniques": [
+          "pitch histogram",
+          "key profile matching"
+        ]
+      },
+      "drone_detection": {
+        "description": "Detect sustained pitches (sieng sep)",
+        "techniques": [
+          "spectral flux",
+          "pitch constancy"
+        ]
+      },
+      "ornament_classification": {
+        "description": "Classify Thai ornaments (kro, won, ti kep)",
+        "techniques": [
+          "pitch contour analysis",
+          "temporal patterns"
+        ]
+      },
+      "nathap_recognition": {
+        "description": "Recognize Thai rhythmic cycles",
+        "techniques": [
+          "beat histogram",
+          "accent pattern matching"
+        ]
+      }
+    }
+  },
+  "annotation_types": {
+    "feature_label": {
+      "type": "multi_label",
+      "values": [
+        "thao",
+        "luk_mot",
+        "luk_yon",
+        "ti_kep",
+        "thang_kro",
+        "nathap_propkai",
+        "lai_yai",
+        "lai_noi",
+        "khaen_drone",
+        "upbeat_accent",
+        "khuen_hua_pi",
+        "lagu_dua",
+        "nora_gongs",
+        "khap_saw",
+        "sueng_tremolo"
+      ],
+      "description": "Thai music features present in audio"
+    },
+    "lai_mode": {
+      "type": "categorical",
+      "values": [
+        "lai_yai",
+        "lai_noi",
+        "lai_se",
+        "lai_sutsanaen",
+        "lai_pong_sai",
+        "lai_soi",
+        "none"
+      ],
+      "description": "Isan lai mode classification"
+    },
+    "hybridization_level": {
+      "type": "ordinal",
+      "values": [
+        "pure_thai",
+        "thai_dominant",
+        "balanced",
+        "jazz_dominant",
+        "pure_jazz"
+      ],
+      "description": "Degree of Thai-Jazz fusion"
+    },
+    "regional_style": {
+      "type": "categorical",
+      "values": [
+        "central",
+        "isan",
+        "southern",
+        "northern",
+        "mixed"
+      ],
+      "description": "Thai regional music style"
+    },
+    "jazz_style": {
+      "type": "categorical",
+      "values": [
+        "swing",
+        "bebop",
+        "modal",
+        "fusion",
+        "contemporary"
+      ],
+      "description": "Jazz style classification"
+    }
+  },
+  "composition_metadata": {
+    "composition_name": "string",
+    "composer": "string",
+    "duration_seconds": "float",
+    "tempo_bpm": "float",
+    "key_signature": "string",
+    "time_signature": "string",
+    "instrumentation": "list[string]",
+    "source_pages": "list[int]"
+  },
+  "recommended_parameters": {
+    "sample_rate": 22050,
+    "hop_length": 512,
+    "n_fft": 2048,
+    "n_mels": 128,
+    "frame_length": 2048
+  }
+}

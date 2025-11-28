@@ -1,0 +1,16 @@
+feature_id,name,category,thai_term,description,application,examples,source_pages
+thao,Thao (เทา),compositional_technique,เทา,Melodic augmentation/diminution technique,Apply to jazz standards like Giant Steps,Khaek Toi Moh,"68, 75"
+luk_mot,Luk Mot (ลูกโมท),melodic_pattern,ลูกโมท,Closing melodic phrase (similar to blues riff),Use as ending phrases in jazz composition,Khaek Toi Moh,71
+luk_yon,Luk Yon (ลูกย้อน),harmonic_technique,ลูกย้อน,Pedal point / sustained pitch,Create modal jazz harmonies,Thai classical compositions,71
+ti_kep,Ti Kep (ตีเก็บ),ornamental_technique,ตีเก็บ,8-note run imitating ranad ek xylophone,Vibraphone or marimba techniques in jazz orchestra,Samniang Jin,"73, 183"
+thang_kro,Thang Kro (ทางกรอ),ornamental_technique,ทางกรอ,Tremolo technique,String section or woodwind tremolo effects,Nanapa,"88, 92"
+nathap_propkai,Nathap Propkai (หน้าทับพรบ ไกล),rhythmic_pattern,หน้าทับพรบไกล,"Thai rhythmic cycle (3 levels: sam chan, song chan, chan dio)",Adapt to drum set and bass patterns,Thai classical compositions,"62, 64"
+lai_yai,Lai Yai (ลายใหญ่),mode,ลายใหญ่,"A minor pentatonic mode (A, C, D, E, G)","Bass improvisation, modal jazz composition","Lai Teay Khong, Mekong","27, 107, 200"
+lai_noi,Lai Noi (ลายน้อย),mode,ลายน้อย,"D minor pentatonic mode (D, F, G, A, C)",Reharmonization with jazz chords,Lai Lom Phat Phrao,"100, 107"
+khaen_drone,Sieng Sep (เสียงเซ็บ),harmonic_technique,เสียงเซ็บ,"Drone technique (root, P4, P5, octave)",Creates suspended chord texture in jazz,Khaen performances,"99, 102"
+upbeat_accent,Upbeat Accents,rhythmic_pattern,จังหวะเน้นขึ้น,Swing-like upbeat emphasis,Swing feel in jazz orchestra arrangements,"Phin performances, Pong lang","102, 104"
+khuen_hua_pi,Khuen Hua Pi (ขึ้นหัวปี่),performance_technique,ขึ้นหัวปี่,Pi nora ascending technique with tremolo,Soprano saxophone techniques,Singora,"112, 114"
+lagu_dua,Lagu Dua,rhythmic_pattern,ลากูดัว,Rong ngeng rhythmic pattern,Conga or drum set patterns,Singora,"131, 223"
+nora_gongs,Mong (ฆ้อง),harmonic_marker,ฆ้อง,Two gongs in perfect 5th (D-G or Eb-Ab),Bass markers in jazz arrangement,Singora,"115, 230"
+khap_saw,Khap Saw (ขับซอ),performance_technique,ขับซอ,Vocal with pi jum (perpetual eighth-notes),Flute/clarinet heterophony,Wiang Haeng,"146, 247"
+sueng_tremolo,Sueng Tremolo (ซึง),instrumental_technique,การสั่นเสียงซึง,Tremolo on sueng (fretted lute),Guitar tremolo effects,Wiang Haeng,"145, 247"
