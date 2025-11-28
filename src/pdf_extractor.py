@@ -190,6 +190,9 @@ class DissertationExtractor:
     
     def generate_summary_report(self) -> Dict:
         """Generate a comprehensive summary of the dissertation."""
+        if not self.chapters:
+            self.identify_chapters()
+        
         keyword_analysis = self.find_music_keywords()
         tables_figures = self.extract_tables_and_figures()
         features = self.extract_dataset_features()
