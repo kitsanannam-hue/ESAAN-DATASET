@@ -1,9 +1,9 @@
 entrypoint = "main.py"
-modules = ["python-3.11"]
+modules = ["python-3.11", "web"]
 
 [nix]
 channel = "stable-25_05"
-packages = ["freetype", "glibcLocales", "gumbo", "harfbuzz", "jbig2dec", "libjpeg_turbo", "mupdf", "openjpeg", "swig", "xcbuild"]
+packages = ["freetype", "glibcLocales", "gumbo", "harfbuzz", "jbig2dec", "libjpeg_turbo", "mupdf", "openjpeg", "openssl", "postgresql", "swig", "xcbuild"]
 
 [unitTest]
 language = "python3"
@@ -12,14 +12,15 @@ language = "python3"
 requiredFiles = [".replit", "replit.nix"]
 
 [deployment]
-run = ["python3", "main.py"]
-deploymentTarget = "cloudrun"
+run = ["gunicorn", "--bind", "0.0.0.0:5000", "main:app"]
+deploymentTarget = "autoscale"
 
 [agent]
 expertMode = true
+integrations = ["python_openai:1.0.0"]
 
 [workflows]
-runButton = "Web Dashboard"
+runButton = "Project"
 
 [[workflows.workflow]]
 name = "Project"
@@ -29,6 +30,10 @@ author = "agent"
 [[workflows.workflow.tasks]]
 task = "workflow.run"
 args = "Dissertation Analysis"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Start application"
 
 [[workflows.workflow]]
 name = "Dissertation Analysis"
@@ -59,6 +64,22 @@ mode = "sequential"
 task = "shell.exec"
 args = "python -c \"from src.thai_jazz_ml_builder import ThaiJazzMLBuilder; builder = ThaiJazzMLBuilder(); builder.export_all()\""
 
+[[workflows.workflow]]
+name = "Start application"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "gunicorn --bind 0.0.0.0:5000 --reuse-port --reload app:app"
+waitForPort = 5000
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
 [[ports]]
 localPort = 5000
 externalPort = 80
+
+[[ports]]
+localPort = 35523
+externalPort = 3000

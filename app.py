@@ -1,19 +1,30 @@
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, Response
 from src.explorers.dataset_explorer import DatasetExplorer
 from src.builders.phin_dataset_builder import PhinDatasetBuilder
+from src.ai_analyzer import (
+    analyze_feature_connection, 
+    generate_fusion_suggestion, 
+    explain_musical_concept,
+    compare_scale_systems,
+    is_available as ai_available
+)
 import json
+import csv
+import io
 from pathlib import Path
 import numpy as np
 import pandas as pd
+import os
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("SESSION_SECRET")
 explorer = DatasetExplorer()
 
 def convert_to_serializable(obj):
     """Convert numpy/pandas types to Python native types for JSON serialization."""
-    if isinstance(obj, (np.integer, np.int64)):
+    if isinstance(obj, np.integer):
         return int(obj)
-    elif isinstance(obj, (np.floating, np.float64)):
+    elif isinstance(obj, np.floating):
         return float(obj)
     elif isinstance(obj, np.ndarray):
         return obj.tolist()
@@ -249,6 +260,351 @@ def notation_summary():
             return jsonify({'error': 'Summary not found'}), 404
     except Exception as e:
         return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/ai/status')
+def ai_status():
+    """Check if AI analysis is available."""
+    return jsonify({
+        'available': ai_available(),
+        'message': 'AI analysis ready' if ai_available() else 'Add OPENAI_API_KEY to enable AI analysis'
+    })
+
+
+@app.route('/api/ai/analyze-feature', methods=['POST'])
+def ai_analyze_feature():
+    """Analyze a musical feature using AI."""
+    feature_data = request.json
+    if not feature_data:
+        return jsonify({'error': 'No feature data provided'}), 400
+    
+    result = analyze_feature_connection(feature_data)
+    return jsonify(result)
+
+
+@app.route('/api/ai/fusion-suggestion', methods=['POST'])
+def ai_fusion_suggestion():
+    """Generate fusion composition suggestions."""
+    data = request.json
+    if not data:
+        return jsonify({'error': 'No data provided'}), 400
+    
+    thai_features = data.get('thai_features', [])
+    jazz_style = data.get('jazz_style', 'Modal Jazz')
+    
+    result = generate_fusion_suggestion(thai_features, jazz_style)
+    return jsonify(result)
+
+
+@app.route('/api/ai/explain', methods=['POST'])
+def ai_explain():
+    """Explain a musical concept."""
+    data = request.json
+    if not data or 'concept' not in data:
+        return jsonify({'error': 'No concept provided'}), 400
+    
+    concept = data['concept']
+    context = data.get('context', 'Thai-Jazz fusion')
+    
+    result = explain_musical_concept(concept, context)
+    return jsonify(result)
+
+
+@app.route('/api/ai/compare-scales', methods=['POST'])
+def ai_compare_scales():
+    """Compare Thai and Jazz scales."""
+    data = request.json
+    if not data:
+        return jsonify({'error': 'No data provided'}), 400
+    
+    thai_scale = data.get('thai_scale', 'Lai Yai')
+    jazz_scale = data.get('jazz_scale', 'Dorian')
+    
+    result = compare_scale_systems(thai_scale, jazz_scale)
+    return jsonify(result)
+
+
+@app.route('/api/visualization/category-distribution')
+def viz_category_distribution():
+    """Get category distribution for visualization."""
+    try:
+        features_path = Path('output/ml_dataset/thai_jazz_features.json')
+        if features_path.exists():
+            with open(features_path, 'r', encoding='utf-8') as f:
+                features = json.load(f)
+            
+            categories = {}
+            for feature in features:
+                cat = feature.get('category', 'unknown')
+                categories[cat] = categories.get(cat, 0) + 1
+            
+            return jsonify({
+                'labels': list(categories.keys()),
+                'values': list(categories.values()),
+                'colors': ['#667eea', '#764ba2', '#f093fb', '#f5576c', '#4facfe', '#00f2fe']
+            })
+        return jsonify({'error': 'Features not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/visualization/regional-coverage')
+def viz_regional_coverage():
+    """Get regional coverage for visualization."""
+    try:
+        complete_path = Path('output/ml_dataset/complete_ml_dataset.json')
+        if complete_path.exists():
+            with open(complete_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            regions = data.get('metadata', {}).get('regional_coverage', [])
+            region_counts = {r: 0 for r in regions}
+            
+            for feature in data.get('features', []):
+                for region in regions:
+                    if region.lower() in str(feature).lower():
+                        region_counts[region] += 1
+            
+            return jsonify({
+                'labels': list(region_counts.keys()),
+                'values': list(region_counts.values()),
+                'colors': ['#22c55e', '#3b82f6', '#f59e0b', '#ef4444']
+            })
+        return jsonify({'error': 'Dataset not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/visualization/notation-types')
+def viz_notation_types():
+    """Get notation type distribution for visualization."""
+    try:
+        summary_path = Path('output/music_notation_dataset/notation_summary.json')
+        if summary_path.exists():
+            with open(summary_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            by_type = data.get('by_type', {})
+            return jsonify({
+                'labels': [k.replace('_', ' ').title() for k in by_type.keys()],
+                'values': list(by_type.values()),
+                'colors': ['#8b5cf6', '#06b6d4', '#10b981', '#f59e0b', '#ef4444']
+            })
+        return jsonify({'error': 'Summary not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/visualization/page-analysis')
+def viz_page_analysis():
+    """Get page analysis statistics."""
+    stats = explorer.get_feature_statistics()
+    stats = convert_to_serializable(stats)
+    
+    return jsonify({
+        'labels': ['Thai Music', 'Jazz', 'Fusion', 'ML Content'],
+        'values': [
+            stats.get('thai_music_count', 0),
+            stats.get('jazz_count', 0),
+            stats.get('fusion_count', 0),
+            stats.get('ml_count', 0)
+        ],
+        'colors': ['#667eea', '#f59e0b', '#10b981', '#ef4444']
+    })
+
+
+@app.route('/api/features/filter')
+def filter_features():
+    """Filter features by category and search term."""
+    category = request.args.get('category', '')
+    search = request.args.get('search', '').lower()
+    
+    try:
+        features_path = Path('output/ml_dataset/thai_jazz_features.json')
+        if features_path.exists():
+            with open(features_path, 'r', encoding='utf-8') as f:
+                features = json.load(f)
+            
+            filtered = features
+            
+            if category:
+                filtered = [f for f in filtered if f.get('category', '') == category]
+            
+            if search:
+                filtered = [f for f in filtered if 
+                    search in f.get('name', '').lower() or
+                    search in f.get('description', '').lower() or
+                    search in f.get('thai_term', '').lower()]
+            
+            return jsonify(filtered)
+        return jsonify({'error': 'Features not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/features/categories')
+def get_categories():
+    """Get all unique feature categories."""
+    try:
+        features_path = Path('output/ml_dataset/thai_jazz_features.json')
+        if features_path.exists():
+            with open(features_path, 'r', encoding='utf-8') as f:
+                features = json.load(f)
+            
+            categories = list(set(f.get('category', 'unknown') for f in features))
+            return jsonify(sorted(categories))
+        return jsonify([])
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/export/features/<format>')
+def export_features(format):
+    """Export features dataset in specified format."""
+    try:
+        features_path = Path('output/ml_dataset/thai_jazz_features.json')
+        if not features_path.exists():
+            return jsonify({'error': 'Features not found'}), 404
+        
+        with open(features_path, 'r', encoding='utf-8') as f:
+            features = json.load(f)
+        
+        if format == 'json':
+            return Response(
+                json.dumps(features, indent=2, ensure_ascii=False),
+                mimetype='application/json',
+                headers={'Content-Disposition': 'attachment;filename=thai_jazz_features.json'}
+            )
+        elif format == 'csv':
+            output = io.StringIO()
+            if features:
+                writer = csv.DictWriter(output, fieldnames=features[0].keys())
+                writer.writeheader()
+                writer.writerows(features)
+            return Response(
+                output.getvalue(),
+                mimetype='text/csv',
+                headers={'Content-Disposition': 'attachment;filename=thai_jazz_features.csv'}
+            )
+        else:
+            return jsonify({'error': 'Unsupported format'}), 400
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/export/phin/<format>')
+def export_phin(format):
+    """Export Phin dataset in specified format."""
+    try:
+        phin_path = Path('output/phin_dataset/phin_dataset_complete.json')
+        if not phin_path.exists():
+            return jsonify({'error': 'Phin dataset not found'}), 404
+        
+        with open(phin_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        if format == 'json':
+            return Response(
+                json.dumps(data, indent=2, ensure_ascii=False),
+                mimetype='application/json',
+                headers={'Content-Disposition': 'attachment;filename=phin_dataset.json'}
+            )
+        elif format == 'csv':
+            output = io.StringIO()
+            lai_patterns = data.get('lai_patterns', [])
+            if lai_patterns:
+                writer = csv.DictWriter(output, fieldnames=lai_patterns[0].keys())
+                writer.writeheader()
+                writer.writerows(lai_patterns)
+            return Response(
+                output.getvalue(),
+                mimetype='text/csv',
+                headers={'Content-Disposition': 'attachment;filename=phin_lai_patterns.csv'}
+            )
+        else:
+            return jsonify({'error': 'Unsupported format'}), 400
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/export/complete/<format>')
+def export_complete(format):
+    """Export complete ML dataset."""
+    try:
+        complete_path = Path('output/ml_dataset/complete_ml_dataset.json')
+        if not complete_path.exists():
+            return jsonify({'error': 'Dataset not found'}), 404
+        
+        with open(complete_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        if format == 'json':
+            return Response(
+                json.dumps(data, indent=2, ensure_ascii=False),
+                mimetype='application/json',
+                headers={'Content-Disposition': 'attachment;filename=complete_ml_dataset.json'}
+            )
+        else:
+            return jsonify({'error': 'Only JSON format supported for complete dataset'}), 400
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/relationships')
+def feature_relationships():
+    """Get relationships between Thai and Jazz features."""
+    relationships = [
+        {
+            'thai_feature': 'Thao (เทา)',
+            'jazz_equivalent': 'Augmentation/Diminution',
+            'connection': 'Both use rhythmic transformation of melodic material',
+            'fusion_tip': 'Apply thao principles to Giant Steps changes'
+        },
+        {
+            'thai_feature': 'Luk Mot (ลูกโมท)',
+            'jazz_equivalent': 'Blues Riff / Turnaround',
+            'connection': 'Closing phrases that signal section endings',
+            'fusion_tip': 'Use luk mot patterns as jazz turnarounds'
+        },
+        {
+            'thai_feature': 'Lai Yai (ลายใหญ่)',
+            'jazz_equivalent': 'A Minor Pentatonic / Blues Scale',
+            'connection': 'Similar intervallic structure and melodic function',
+            'fusion_tip': 'Substitute blues licks with lai yai patterns'
+        },
+        {
+            'thai_feature': 'Sieng Sep (เสียงเซ็บ)',
+            'jazz_equivalent': 'Suspended Chords / Drones',
+            'connection': 'Creates harmonic suspension and modal feel',
+            'fusion_tip': 'Use khaen drone technique over jazz sus chords'
+        },
+        {
+            'thai_feature': 'Nathap Propkai',
+            'jazz_equivalent': 'Polyrhythmic Patterns',
+            'connection': 'Layered rhythmic cycles',
+            'fusion_tip': 'Adapt Thai rhythmic cycles for drum set grooves'
+        },
+        {
+            'thai_feature': 'Ti Kep (ตีเก็บ)',
+            'jazz_equivalent': 'Vibraphone Runs',
+            'connection': '8-note melodic runs on mallet instruments',
+            'fusion_tip': 'Apply ranad ek technique to jazz vibraphone'
+        },
+        {
+            'thai_feature': 'Thang Kro (ทางกรอ)',
+            'jazz_equivalent': 'Tremolo',
+            'connection': 'Sustained pitch with rapid oscillation',
+            'fusion_tip': 'Use in string and wind sections for Thai color'
+        },
+        {
+            'thai_feature': 'Luk Yon (ลูกย้อน)',
+            'jazz_equivalent': 'Pedal Point',
+            'connection': 'Sustained bass note under changing harmony',
+            'fusion_tip': 'Create modal jazz sections with Thai pedal tones'
+        }
+    ]
+    return jsonify(relationships)
+
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
