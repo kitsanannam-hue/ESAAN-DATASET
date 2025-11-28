@@ -203,5 +203,47 @@ def ml_complete():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/music-notation')
+def music_notation():
+    """Get all musical notation."""
+    try:
+        notation_path = Path('output/music_notation_dataset/musical_notation.json')
+        if notation_path.exists():
+            with open(notation_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data[:100])  # Limit to 100 for performance
+        else:
+            return jsonify({'error': 'Notation dataset not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/compositions')
+def compositions():
+    """Get musical compositions."""
+    try:
+        comp_path = Path('output/music_notation_dataset/compositions.json')
+        if comp_path.exists():
+            with open(comp_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'Compositions not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+@app.route('/api/notation-summary')
+def notation_summary():
+    """Get notation dataset summary."""
+    try:
+        summary_path = Path('output/music_notation_dataset/notation_summary.json')
+        if summary_path.exists():
+            with open(summary_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(data)
+        else:
+            return jsonify({'error': 'Summary not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
