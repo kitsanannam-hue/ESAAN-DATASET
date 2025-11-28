@@ -1,0 +1,14 @@
+string_count,tuning_type,tuning,notes,description,region
+3,3_string,E-A-E,"E,A,E",Most widely used,Standard
+3,3_string,E-A-A,"E,A,A",Alternative tuning,Standard
+3,3_string,E-B-E,"E,B,E",Alternative tuning,Standard
+2,2_string,E-A,"E,A",Standard 2-string,Standard
+2,2_string,E-B,"E,B",Alternative,Standard
+2,2_string,E-D,"E,D",Alternative,Standard
+2,2_string,E-E,"E,E",Unison tuning,Standard
+4,4_string,E-A-E-A,"E,A,E,A",Standard 4-string,Standard
+4,4_string,E-A-E-B,"E,A,E,B",Alternative,Standard
+4,4_string,A-E-A-E,"A,E,A,E",Inverted,Standard
+4,4_string,E-E-A-A,"E,E,A,A",Paired unison,Standard
+3,regional,D-A-G,"D,A,G",Lai noi tuning from Nong Kai Province,Nong Kai
+3,regional,A-D-A,"A,D,A",Lai noi tuning (Terry Miller study),Other region

@@ -1,0 +1,131 @@
+{
+  "name": "Phin ML Dataset Schema",
+  "version": "1.0",
+  "instrument": "phin",
+  "instrument_thai": "พิณ",
+  "description": "Machine learning dataset schema for Thai Phin instrument analysis",
+  "audio_features": {
+    "spectral": {
+      "mfcc": {
+        "description": "Mel-frequency cepstral coefficients",
+        "dimensions": 13
+      },
+      "spectral_centroid": {
+        "description": "Center of mass of spectrum"
+      },
+      "spectral_bandwidth": {
+        "description": "Spread of spectrum"
+      },
+      "chroma": {
+        "description": "Pitch class energy distribution",
+        "dimensions": 12
+      }
+    },
+    "temporal": {
+      "tempo": {
+        "description": "Beats per minute"
+      },
+      "beat_frames": {
+        "description": "Beat positions in frames"
+      },
+      "onset_strength": {
+        "description": "Note onset detection strength"
+      }
+    },
+    "harmonic": {
+      "fundamental_frequency": {
+        "description": "F0 estimation for melody"
+      },
+      "harmonic_ratio": {
+        "description": "Harmonic to noise ratio"
+      }
+    },
+    "phin_specific": {
+      "drone_detection": {
+        "description": "Detect sieng sep (drone) presence"
+      },
+      "string_count_estimation": {
+        "description": "Estimate 2/3/4 string phin"
+      },
+      "lai_pattern_recognition": {
+        "description": "Classify lai melodic patterns"
+      },
+      "upbeat_accent_detection": {
+        "description": "Detect swing-like upbeat patterns"
+      },
+      "pentatonic_scale_detection": {
+        "description": "Identify pentatonic scale usage"
+      }
+    }
+  },
+  "annotation_types": {
+    "lai_label": {
+      "type": "categorical",
+      "values": [
+        "lai_ka_ten_kon",
+        "lai_kaeo_na_ma",
+        "lai_noi",
+        "lai_yai",
+        "lai_mae_bot",
+        "other"
+      ]
+    },
+    "tuning": {
+      "type": "categorical",
+      "values": [
+        "E-A-E",
+        "E-A-A",
+        "E-B-E",
+        "E-A",
+        "E-B",
+        "E-D",
+        "E-E",
+        "E-A-E-A",
+        "E-A-E-B",
+        "A-E-A-E",
+        "E-E-A-A",
+        "D-A-G",
+        "A-D-A",
+        "other"
+      ]
+    },
+    "drone_note": {
+      "type": "categorical",
+      "values": [
+        "D",
+        "G",
+        "A",
+        "E",
+        "none",
+        "other"
+      ]
+    },
+    "technique": {
+      "type": "multi_label",
+      "values": [
+        "sieng_sep",
+        "upbeat_accent",
+        "sixteenth_notes",
+        "pentatonic",
+        "penta_centric"
+      ]
+    },
+    "performer": {
+      "type": "string",
+      "description": "Name of phin performer"
+    },
+    "province": {
+      "type": "categorical",
+      "values": [
+        "Ubon Ratchathani",
+        "Kalasin",
+        "Nong Kai",
+        "Various",
+        "other"
+      ]
+    }
+  },
+  "recommended_sample_rate": 22050,
+  "recommended_hop_length": 512,
+  "recommended_n_fft": 2048
+}

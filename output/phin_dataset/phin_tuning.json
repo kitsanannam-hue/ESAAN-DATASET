@@ -1,0 +1,106 @@
+[
+  {
+    "string_count":3,
+    "tuning_type":"3_string",
+    "tuning":"E-A-E",
+    "notes":"E,A,E",
+    "description":"Most widely used",
+    "region":"Standard"
+  },
+  {
+    "string_count":3,
+    "tuning_type":"3_string",
+    "tuning":"E-A-A",
+    "notes":"E,A,A",
+    "description":"Alternative tuning",
+    "region":"Standard"
+  },
+  {
+    "string_count":3,
+    "tuning_type":"3_string",
+    "tuning":"E-B-E",
+    "notes":"E,B,E",
+    "description":"Alternative tuning",
+    "region":"Standard"
+  },
+  {
+    "string_count":2,
+    "tuning_type":"2_string",
+    "tuning":"E-A",
+    "notes":"E,A",
+    "description":"Standard 2-string",
+    "region":"Standard"
+  },
+  {
+    "string_count":2,
+    "tuning_type":"2_string",
+    "tuning":"E-B",
+    "notes":"E,B",
+    "description":"Alternative",
+    "region":"Standard"
+  },
+  {
+    "string_count":2,
+    "tuning_type":"2_string",
+    "tuning":"E-D",
+    "notes":"E,D",
+    "description":"Alternative",
+    "region":"Standard"
+  },
+  {
+    "string_count":2,
+    "tuning_type":"2_string",
+    "tuning":"E-E",
+    "notes":"E,E",
+    "description":"Unison tuning",
+    "region":"Standard"
+  },
+  {
+    "string_count":4,
+    "tuning_type":"4_string",
+    "tuning":"E-A-E-A",
+    "notes":"E,A,E,A",
+    "description":"Standard 4-string",
+    "region":"Standard"
+  },
+  {
+    "string_count":4,
+    "tuning_type":"4_string",
+    "tuning":"E-A-E-B",
+    "notes":"E,A,E,B",
+    "description":"Alternative",
+    "region":"Standard"
+  },
+  {
+    "string_count":4,
+    "tuning_type":"4_string",
+    "tuning":"A-E-A-E",
+    "notes":"A,E,A,E",
+    "description":"Inverted",
+    "region":"Standard"
+  },
+  {
+    "string_count":4,
+    "tuning_type":"4_string",
+    "tuning":"E-E-A-A",
+    "notes":"E,E,A,A",
+    "description":"Paired unison",
+    "region":"Standard"
+  },
+  {
+    "string_count":3,
+    "tuning_type":"regional",
+    "tuning":"D-A-G",
+    "notes":"D,A,G",
+    "description":"Lai noi tuning from Nong Kai Province",
+    "region":"Nong Kai"
+  },
+  {
+    "string_count":3,
+    "tuning_type":"regional",
+    "tuning":"A-D-A",
+    "notes":"A,D,A",
+    "description":"Lai noi tuning (Terry Miller study)",
+    "region":"Other region"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "name_thai":"ลายกาเต้นก้อน",
+    "name_english":"Lai Ka Ten Kon",
+    "meaning":"Crows dancing over the rocks",
+    "scale_type":"A minor pentatonic",
+    "drone_note":"D",
+    "performer":"Thongsai Thabthanon",
+    "province":"Ubon Ratchathani",
+    "source_page":101,
+    "characteristics":"pentatonic,upbeat accents,sixteenth notes,drone on D"
+  },
+  {
+    "name_thai":"ลายแก้วหน้าม้า",
+    "name_english":"Lai Kaeo Na Ma",
+    "meaning":"A house's face",
+    "scale_type":"G pentatonic",
+    "drone_note":"G",
+    "performer":"Boomma Kaowong",
+    "province":"Kalasin",
+    "source_page":101,
+    "characteristics":"pentatonic,penta-centric,rhythmic intensity,drone on G"
+  },
+  {
+    "name_thai":"ลายน้อย",
+    "name_english":"Lai Noi",
+    "meaning":"Small\/minor pattern",
+    "scale_type":"pentatonic",
+    "drone_note":"",
+    "performer":"",
+    "province":"Nong Kai \/ Various",
+    "source_page":100,
+    "characteristics":"regional variations in tuning"
+  },
+  {
+    "name_thai":"ลายใหญ่",
+    "name_english":"Lai Yai",
+    "meaning":"Large\/major pattern",
+    "scale_type":"A minor pentatonic (A, C, D, E, G)",
+    "drone_note":"",
+    "performer":"",
+    "province":"",
+    "source_page":27,
+    "characteristics":"fundamental mode"
+  },
+  {
+    "name_thai":"ลายแม่บท",
+    "name_english":"Lai Mae Bot",
+    "meaning":"Fundamental modes",
+    "scale_type":"pentatonic",
+    "drone_note":"",
+    "performer":"",
+    "province":"",
+    "source_page":100,
+    "characteristics":"base patterns from khaen tradition"
+  }
+]

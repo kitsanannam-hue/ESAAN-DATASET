@@ -123,6 +123,31 @@ The dataset schema supports:
 - Rhythmic: beat position, accent pattern, tempo variation
 - Structural: section label, form, transition type
 
+## Phin Dataset (พิณ)
+
+A specialized dataset for Thai Phin instrument research:
+
+### Files in output/phin_dataset/
+- `phin_tuning.csv/json` - 13 tuning systems for 2/3/4 string phin
+- `phin_lai_patterns.csv/json` - 5 melodic patterns (ลาย)
+- `phin_artists.csv/json` - 2 master performers
+- `phin_techniques.csv/json` - 5 playing techniques
+- `phin_ml_schema.json` - ML feature schema for audio analysis
+- `phin_dataset_complete.json` - Combined dataset
+
+### Usage
+```python
+from src.phin_dataset_builder import PhinDatasetBuilder
+
+builder = PhinDatasetBuilder()
+builder.load_phin_pages("/tmp/phin_pages_raw.json")
+dataset = builder.export_all()
+
+# Access individual datasets
+tuning_df = builder.build_tuning_dataset()
+lai_df = builder.build_lai_dataset()
+```
+
 ## Dependencies
 - Python 3.11
 - PyMuPDF (fitz) - PDF text extraction

@@ -1,0 +1,32 @@
+[
+  {
+    "name":"Sieng Sep (เสียงเซ็บ)",
+    "description":"Drone technique similar to khaen, sustained pitch underneath melody",
+    "category":"drone",
+    "source_page":102
+  },
+  {
+    "name":"Upbeat Accents",
+    "description":"Swing-like feel with emphasis on upbeats in eighth-note settings",
+    "category":"rhythm",
+    "source_page":102
+  },
+  {
+    "name":"Sixteenth Note Patterns",
+    "description":"Used to create rhythmic intensity in performances",
+    "category":"rhythm",
+    "source_page":102
+  },
+  {
+    "name":"Pentatonic Construction",
+    "description":"Primary melodic construction based on pentatonic scales",
+    "category":"melody",
+    "source_page":102
+  },
+  {
+    "name":"Penta-centric Concept",
+    "description":"Melodic approach centered around five-note scale system",
+    "category":"melody",
+    "source_page":102
+  }
+]
