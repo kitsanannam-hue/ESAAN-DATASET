@@ -1,6 +1,6 @@
 from flask import Flask, render_template, jsonify, request
-from src.dataset_explorer import DatasetExplorer
-from src.phin_dataset_builder import PhinDatasetBuilder
+from src.explorers.dataset_explorer import DatasetExplorer
+from src.builders.phin_dataset_builder import PhinDatasetBuilder
 import json
 from pathlib import Path
 import numpy as np

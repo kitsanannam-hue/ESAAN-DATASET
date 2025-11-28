@@ -14,8 +14,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent / "src"))
 
-from pdf_extractor import DissertationExtractor, print_progress
-from dataset_builder import ThaiJazzDatasetBuilder
+from src.extractors.pdf_extractor import DissertationExtractor, print_progress
+from src.builders.dataset_builder import ThaiJazzDatasetBuilder
 
 
 def main():

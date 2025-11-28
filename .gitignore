@@ -161,7 +161,16 @@ cython_debug/
 
 # Output files
 output/
+data/processed/
 *.csv
 *.json
 !src/**/*.json
 !docs/**/*.json
+!config/**/*.json
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+
+# Static files cache
+static/cache/
