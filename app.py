@@ -99,14 +99,19 @@ def phin_tuning():
     records = df.to_dict('records')
     return jsonify([convert_to_serializable(record) for record in records])
 
-@app.route('/api/phin/lai-patterns')
-def phin_lai():
+@app.route('/api/phin-lai-patterns')
+def phin_lai_patterns():
     """Get Phin lai patterns."""
-    builder = PhinDatasetBuilder()
-    df = builder.build_lai_dataset()
-    # Convert DataFrame to a list of dictionaries, handling potential int64 issues
-    records = df.to_dict('records')
-    return jsonify([convert_to_serializable(record) for record in records])
+    try:
+        phin_path = Path('output/phin_dataset/phin_lai_patterns.json')
+        if phin_path.exists():
+            with open(phin_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            return jsonify(convert_to_serializable(data))
+        else:
+            return jsonify({'error': 'Phin lai patterns not found'}), 404
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 @app.route('/api/phin/artists')
 def phin_artists():
